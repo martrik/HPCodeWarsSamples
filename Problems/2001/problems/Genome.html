@@ -1,0 +1,215 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/TaskDescription.dwt" --> 
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Compaq Code Wars IV </title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+-->
+</style>
+<link rel="stylesheet" href="cw4task.css">
+</head>
+<body bgcolor="#FFFFFF">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000031">
+ <tr> 
+  <td><img src="cpqlogo.gif" width="140" height="45">&nbsp;&nbsp;&nbsp;</td>
+  <td> 
+   <div align="right"><img src="cwtypeiv.gif" width="335" height="45"></div>
+  </td>
+ </tr>
+</table>
+<table BORDER=0 CELLSPACING=1 CELLPADDING=0 COLS=25 WIDTH="100%" class="bodystyle" >
+ <tr class="bodystyle"> 
+  <td> 
+   <div align="right">&nbsp; </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">P </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">R </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">G </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">R </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">A </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">N </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">G </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">&nbsp; </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">C </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">P </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">E </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">T </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">T </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">N </div>
+  </td>
+  <td> 
+   <div align="right">&nbsp; </div>
+  </td>
+ </tr>
+</table>
+<p> <!-- #BeginEditable "Task%20Name%20or%20Title" --><span class="sectionh">Gene 
+ Sequencing</span><!-- #EndEditable --><br>
+ <br>
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#CEC6FF">
+ <tr> 
+  <td> 
+   <center class="bodystyle">
+    Task #<!-- #BeginEditable "Task%20Number" -->13<!-- #EndEditable --> 
+   </center>
+  </td>
+  <td> 
+   <center class="bodystyle">Advanced<!-- #EndEditable --> 
+   </center>
+  </td>
+  <td> 
+   <center class="bodystyle">
+    <!-- #BeginEditable "TaskPoints" -->14<!-- #EndEditable --> Points 
+   </center>
+  </td>
+ </tr>
+</table>
+<p><span class="sectionh">Task Description</span><br>
+ <!-- #BeginEditable "Task%20Description" --><span class="bodystyle">You are working 
+ on the human genome project, and your team is closing in on the last few base 
+ pairs needed to complete the project and go on to certain glory and perhaps a 
+ Nobel prize. Researchers on your team have managed to obtain several sets of 
+ segments needed to sequence the last remaining gene, but your help is urgently 
+ needed to lead the effort.<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your job is to write a program which can reconstruct 
+ the gene sequence using the given fragmentary segments of the larger gene. For 
+ each set of segments given, you must devise an algorithm to sequence them in 
+ the correct order. If you succeed, your name will appear in all biology textbooks 
+ from this day forward. If you are too slow, someone else will take your place. 
+ Good luck.<br>
+ <span class="small"><br>
+ <i> source</i>: The MATLAB Programming Contest - http://www.mathworks.com/contest/sequence.cgi/rules.html</span></span><!-- #EndEditable --></p>
+<p><span class="sectionh">Program Input</span><br>
+<!-- #BeginEditable "Program%20Input%20Paragraph" --><span class="bodystyle">The 
+gene segments given to you have been chemically snipped from a single gene and 
+sequenced individually. Your job is to reassemble them jigsaw-style into the most 
+likely single sequence they could have come from. The gene segments will be represented 
+in the input file as a character (or string) matrix.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only four letters will be used. Each stands for 
+one of the nitrogenous bases in DNA: A (adenine), C (cytosine), G (guanine), and 
+T (thymine). The segments in any single test sequence have the same length (since 
+they're passed as a char matrix). But that length, as well as the number of segments, 
+will vary across the many tests included in our test suite - in other words, your 
+program will be given inputs of different, unknown sizes. In one case, we might 
+have 5 segments of length 4. Another test case might provide 10 segments of length 
+12. For our purposes we will limit all test cases to a maximum of 10 segments 
+with a maximum segment length of 16.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To provide a sense of scale, the entire human genome 
+is approximately three billion base pairs long.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first line of the input file indicates the total 
+number of segment sets. Each set begins with a line of two integers specifying 
+the number of segments N and the segment size Z, respectively. The next N lines 
+will be strings of length Z.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><!-- #EndEditable --><!-- #BeginEditable "Program%20Input%20Example" --> 
+<p class="fixed">2<br>
+ 5 4<br>
+ TCGG<br>
+ GCAG<br>
+ ATCG<br>
+ CAGC<br>
+ GATC<br>
+ 4 16<br>
+ AGCTTGCTGAAACGTA<br>
+ CTTGCTGAAACGTATC<br>
+ TATCGATGCATCGATC<br>
+ AAACGTATCGATGCAT </p>
+<!-- #EndEditable --> 
+<p><span class="sectionh">Program Output</span><br>
+ 
+<!-- #BeginEditable "Program%20Output%20Paragraph" --><span class="bodystyle"> 
+Your program should determine the shortest gene that can be made from these pieces. 
+The rules for assembling a sequence are: (1)&nbsp;the sequence must use all the 
+segments (and only the segments) provided, (2) you cannot flip any of the segments, 
+(3) the result must be a one row char array, (4) the best answer is the shortest 
+answer, (5) speed counts. For example, if we slide around the above segments we 
+can get:<br>
+<center>
+ <center>
+  <table cellpadding=0 cellspacing=0>
+   <tr> 
+    <td><span class="fixed">&nbsp;&nbsp;TCGG<br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GCAG<br>
+     &nbsp;ATCG<br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CAGC<br>
+     GATC<br>
+     ==========<br>
+     GATCGGCAGC </span> </td>
+   </tr>
+  </table>
+ </center>
+ <div align="left">This solution has length 10. It should be obvious that there 
+  will be many solutions for each set. The easiest solution is just to stick all 
+  the pieces placed end to end. While this sequence is valid, it's unlikely to 
+  be a faithful reconstruction of the original gene and would therefore be penalized 
+  because of its length. The team with the shortest solution will threrefor earn 
+  a <b>3 point bonus</b>. Keep in mind that length isn't the only criteria. Your 
+  entry will be judged also on its speed. The program must execute in less than 
+  30 seconds on a K6 or Pentium at 200MHz or it will be marked incorrect. The 
+  program output file should show each solution on a separate line.<br>
+  <br>
+ </div>
+</center>
+</span><!-- #EndEditable --> <!-- #BeginEditable "ExampleOutput" --> 
+<p class="fixed"> GATCGGCAGC<br>
+ AGCTTGCTGAAACGTATCGATGCATCGATC</p>
+<!-- #EndEditable --> 
+</body>
+<!-- #EndTemplate -->
+</html>

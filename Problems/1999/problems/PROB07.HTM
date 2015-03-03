@@ -1,0 +1,84 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="leej">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <title>Account Balancing</title>
+</head>
+<body>
+
+<center><b><font face="Arial,Helvetica">Problem #7</font></b>
+<p><b><i><u><font face="Arial,Helvetica"><font size=+4>Code Wars II</font></font></u></i></b>
+<br><b><font face="Arial,Helvetica"><font size=+2>Danger Level: Blue</font></font></b></center>
+
+<p><br>
+<br>
+<p><font size=+2><font face="Wingdings">}</font><b><font face="Arial,Helvetica">Account
+Balancing</font></b><font face="Wingdings">~</font></font>
+<p><b><font face="Arial,Helvetica">Point Value: 5</font></b>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Problem Statement</font></b>
+<p><font face="Times New Roman,Times">The First Fiscal Bank of Financial
+Fidelity needs a program to keep account balances up to date.&nbsp; The
+old program runs on a large, expensive mainframe, and you've been hired
+to rewrite it for Windows NT.&nbsp; In this problem you will write a simple
+prototype for a full account balancing package.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Program Input</font></b>
+<p><font face="Times New Roman,Times">The input file PROB07.IN will be
+a series of deposits and withdraws, each associated with a person's name.&nbsp;
+The program should create a new bank account when it encounters a name
+with the key word BALANCE.&nbsp; It should then add and subtract the given
+values as appropriate per the DEPOSIT and WITHDRAW transactions.&nbsp;
+Here's some sample input lines:</font>
+<p><font face="Courier New,Courier">DIANE BALANCE 450.00</font>
+<br><font face="Courier New,Courier">LARRY BALANCE 721.50</font>
+<br><font face="Courier New,Courier">DIANE WITHDRAW 63.50</font>
+<br><font face="Courier New,Courier">BEATRICE BALANCE 550.00</font>
+<br><font face="Courier New,Courier">LARRY BALANCE 1344.71</font>
+<br><font face="Courier New,Courier">STEVE WITHDRAW 19.62</font>
+<br><font face="Courier New,Courier">LARRY WITHDRAW 246.19</font>
+<br><font face="Courier New,Courier">DIANE DEPOSIT 925.22</font>
+<br><font face="Courier New,Courier">LARRY WITHDRAW 515.00</font>
+<br><font face="Courier New,Courier">BEATRICE DEPOSIT 750.00</font>
+<br><font face="Courier New,Courier">STEVE BALANCE 200.00</font>
+<br><font face="Courier New,Courier">DIANE WITHDRAW 37.50</font>
+<br><font face="Courier New,Courier">BEATRICE DEPOSIT 200.00</font>
+<br><font face="Courier New,Courier">STEVE WITHDRAW 19.54</font>
+<br><font face="Courier New,Courier">LARRY WITHDRAW 5.15</font>
+<br><font face="Courier New,Courier">XAVIER BALANCE 23400.00</font>
+<br><font face="Courier New,Courier">DIANE DEPOSIT 925.23</font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Program Output</font></b>
+<p><font face="Times New Roman,Times">The program should print error conditions
+and final account balances to PROB07.OUT.&nbsp; It should print a line
+for each occurance of any of these three error conditions: (1) any DEPOSIT
+or WITHDRAW transaction for an account that does not exist, (2) assigning
+a BALANCE to an account already open, and (3) attempting to overdraw the
+account.&nbsp; The program should print the line number with the error
+message.&nbsp; After reading the entire file, the program should print
+all the account names, in alphabetical order, along with the current balances.&nbsp;
+All dollar values in the output file should be prefixed with a $.&nbsp;
+Dollar amounts should be delimited by commas every three significant digits,
+as shown in the sample output.&nbsp; Here's the example output from the
+above input data:</font>
+<p><font face="Courier New,Courier">ERROR LINE 5: LARRY CANNOT REASSIGN
+ACCOUNT BALANCE</font>
+<br><font face="Courier New,Courier">ERROR LINE 6: STEVE DOES NOT HAVE
+AN ACCOUNT</font>
+<br><font face="Courier New,Courier">ERROR LINE 9: LARRY CANNOT WITHDRAW
+$515.00 - BALANCE IS $475.31</font>
+<br><font face="Courier New,Courier">--- FINAL BALANCES ---</font>
+<br><font face="Courier New,Courier">BEATRICE $1,500.00</font>
+<br><font face="Courier New,Courier">DIANE $2,199.45</font>
+<br><font face="Courier New,Courier">LARRY $470.16</font>
+<br><font face="Courier New,Courier">STEVE $180.46</font>
+<br><font face="Courier New,Courier">XAVIER $23,400.00</font>
+</body>
+</html>

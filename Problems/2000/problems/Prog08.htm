@@ -1,0 +1,151 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="leej">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <title>Code Wars III - Program 8: That's Amore!</title>
+<link REL=STYLESHEET TYPE="text/css" HREF="cw3templ.css">
+<style type="text/css">
+<!--
+-->
+   </style>
+</head>
+<body>
+&nbsp;
+<center><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="550" >
+<tr>
+<td>
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableDocTitle" >
+<tr VALIGN=BASELINE class="RowAlignBase">
+<td><span class="TextDocTitle">CODE WARS ]I[</span></td>
+
+<td><span class="TextSubTitle">PROGRAMMING COMPETITION</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbTitle" >
+<tr class="RowAlignBase">
+<td><span class="TextProbTitle">That's Amoré!</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbInfo" >
+<tr class="RowAlignBase">
+<td><span class="TextProbInfo">Problem 8</span></td>
+
+<td><span class="TextProbInfo">Division I / II</span></td>
+
+<td><span class="TextProbInfo">9 Points</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr>
+<td><span class="TextSectionHeader">Problem Statement</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">Loan payments are calculated according
+to a non-homogeneous linear recurrance relation. The balance owed on a
+loan is called
+<i>principal</i>. The charge for the borrowed money is called
+<i>interest</i>,
+and it is calculated as a percentage of the principal. Interest is typically
+published according to an annual rate, although it may be charged on a
+monthly basis.
+<br>&nbsp;&nbsp;&nbsp;&nbsp; If we let <b>P</b> be the initial loan principal,
+and let <b>R</b> be the annual interest rate, and let <b>N</b> be the number
+of months over which the loan is to be repaid, then we can calculate the
+monthly payment <b>M</b> according to the following formula:
+<center><img SRC="amore.gif" height=106 width=179></center>
+&nbsp;&nbsp;&nbsp;&nbsp; Each month when a loan payment is made, therefore,
+a portion of the payment is applied to interest while the remainder is
+applied to principal. If the principal balance in month <i>n</i> is <b>P</b><i>n</i>,
+then the interest amount levied that month is (<b>R</b>/12) * <b>P</b><i>n</i>.
+Banks and tax accountants are keenly interested (heh, heh) in knowing how
+much money each month is applied to each category.
+<br>&nbsp;&nbsp;&nbsp;&nbsp; Write a program to calculate loan payments
+and display an amortization schedule.</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr>
+<td><span class="TextSectionHeader">Program Input</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">The input file PROG08.IN will contain
+the initial principal amount, the annual interest rate, and the number
+of months of the loan period, in that order. Each number will be on a separate
+line as in the example below. There will be no blank lines.
+<br>&nbsp;&nbsp;&nbsp;&nbsp; The program does not need to validate the
+unit labels that appear after the numbers, but it should simply skip them.
+The dollar amount can range from $10000 to $99999. The interest rate may
+be within the range 6.0% to 18.0%. (Remember that 7.25% is a common representation
+of the number 7.25 / 100). The loan period may vary from 12 to 60 months.</span>
+<br><!-- file / code example --><span class="TextConsole">12000.00 Dollars
+<br>7.25%
+<br>12 Months
+<br></span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr>
+<td><span class="TextSectionHeader">Program Output</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">The program should write PROG08.OUT with
+three sections of information: 1) the monthly payment for the loan, 2)
+the amortization table, and 3) total interest and total amount paid. The
+amortization table must show, for each month, the amount of payment amount
+applied to interest and principal, plus the final balance. All dollar amounts
+should be rounded to cents*, and these amounts ABSOLUTELY MUST line up
+the decimal point in each column. Misaligned decimal points will cause
+the answer to be judged as incorrect!
+<p>* Tracking monetary rounding errors is a problem of its own, so for
+this problem we won't be concerned about rounding errors less than 3 cents.
+<br></span>
+<br><!-- file / code example --><span class="TextConsole">for a loan of
+$12000.00, borrowed for 12 months at an annual interest rate of 7.25%,
+the monthly payment is $1039.70.
+<br>month&nbsp; interest principal balance
+<br>&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 72.50&nbsp;&nbsp;&nbsp; 967.20&nbsp;&nbsp;
+11032.80
+<br>&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 66.66&nbsp;&nbsp;&nbsp; 973.05&nbsp;&nbsp;
+10059.75
+<br>&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60.78&nbsp;&nbsp;&nbsp; 978.93&nbsp;&nbsp;&nbsp;
+9080.82
+<br>&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 54.86&nbsp;&nbsp;&nbsp; 984.84&nbsp;&nbsp;&nbsp;
+8095.98
+<br>&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 48.91&nbsp;&nbsp;&nbsp; 990.79&nbsp;&nbsp;&nbsp;
+7105.19
+<br>&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42.93&nbsp;&nbsp;&nbsp; 996.78&nbsp;&nbsp;&nbsp;
+6108.41
+<br>&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 36.90&nbsp;&nbsp; 1002.80&nbsp;&nbsp;&nbsp;
+5105.61
+<br>&nbsp; 8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30.85&nbsp;&nbsp; 1008.86&nbsp;&nbsp;&nbsp;
+4096.75
+<br>&nbsp; 9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 24.75&nbsp;&nbsp; 1014.95&nbsp;&nbsp;&nbsp;
+3081.80
+<br>&nbsp;10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18.62&nbsp;&nbsp; 1021.09&nbsp;&nbsp;&nbsp;
+2060.71
+<br>&nbsp;11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12.45&nbsp;&nbsp; 1027.25&nbsp;&nbsp;&nbsp;
+1033.46
+<br>&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.24&nbsp;&nbsp; 1033.46&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.00
+<br>total interest paid:&nbsp;&nbsp;&nbsp;&nbsp; 476.45
+<br>total amount paid:&nbsp;&nbsp; 12476.45</span></td>
+</tr>
+</table>
+<span class="TextSmallPrint"></span></td>
+</tr>
+</table></center>
+
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

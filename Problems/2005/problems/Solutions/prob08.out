@@ -1,0 +1,53 @@
+Request logged on floor 10 at 0
+---Time = 005, Low = 21, Current = 02, High = 10
+Request logged on floor 12 at 5
+---Time = 010, Low = 21, Current = 03, High = 12
+Request logged on floor 3 at 10
+Serviced Floor 3 at 10, was called at 10, Time to service is 0 seconds.
+---Time = 015, Low = 21, Current = 04, High = 12
+Request logged on floor 8 at 15
+---Time = 020, Low = 21, Current = 05, High = 12
+Request logged on floor 20 at 20
+---Time = 025, Low = 21, Current = 06, High = 20
+---Time = 030, Low = 21, Current = 07, High = 20
+---Time = 035, Low = 21, Current = 08, High = 20
+Serviced Floor 8 at 35, was called at 15, Time to service is 20 seconds.
+---Time = 040, Low = 21, Current = 09, High = 20
+Request logged on floor 1 at 40
+---Time = 045, Low = 01, Current = 10, High = 20
+Serviced Floor 10 at 45, was called at 0, Time to service is 45 seconds.
+---Time = 050, Low = 01, Current = 11, High = 20
+---Time = 055, Low = 01, Current = 12, High = 20
+Serviced Floor 12 at 55, was called at 5, Time to service is 50 seconds.
+---Time = 060, Low = 01, Current = 13, High = 20
+---Time = 065, Low = 01, Current = 14, High = 20
+---Time = 070, Low = 01, Current = 15, High = 20
+---Time = 075, Low = 01, Current = 16, High = 20
+---Time = 080, Low = 01, Current = 17, High = 20
+---Time = 085, Low = 01, Current = 18, High = 20
+---Time = 090, Low = 01, Current = 19, High = 20
+---Time = 095, Low = 01, Current = 20, High = 20
+Serviced Floor 20 at 95, was called at 20, Time to service is 75 seconds.
+---Time = 100, Low = 01, Current = 19, High = 00
+---Time = 105, Low = 01, Current = 18, High = 00
+---Time = 110, Low = 01, Current = 17, High = 00
+---Time = 115, Low = 01, Current = 16, High = 00
+---Time = 120, Low = 01, Current = 15, High = 00
+---Time = 125, Low = 01, Current = 14, High = 00
+---Time = 130, Low = 01, Current = 13, High = 00
+---Time = 135, Low = 01, Current = 12, High = 00
+---Time = 140, Low = 01, Current = 11, High = 00
+---Time = 145, Low = 01, Current = 10, High = 00
+---Time = 150, Low = 01, Current = 09, High = 00
+---Time = 155, Low = 01, Current = 08, High = 00
+---Time = 160, Low = 01, Current = 07, High = 00
+---Time = 165, Low = 01, Current = 06, High = 00
+---Time = 170, Low = 01, Current = 05, High = 00
+---Time = 175, Low = 01, Current = 04, High = 00
+---Time = 180, Low = 01, Current = 03, High = 00
+---Time = 185, Low = 01, Current = 02, High = 00
+---Time = 190, Low = 01, Current = 01, High = 00
+Serviced Floor 1 at 190, was called at 40, Time to service is 150 seconds.
+---Time = 195, Low = 21, Current = 01, High = 00
+38
+150

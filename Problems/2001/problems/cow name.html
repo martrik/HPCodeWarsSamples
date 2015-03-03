@@ -1,0 +1,436 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+<!-- #BeginTemplate "/Templates/TaskDescription.dwt" -->
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./cow%20name_files/filelist.xml">
+<link rel=Edit-Time-Data href="./cow%20name_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Compaq Code Wars IV - Simple Database</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Bob Perugini</o:Author>
+  <o:LastAuthor>Scott Harsany</o:LastAuthor>
+  <o:Revision>11</o:Revision>
+  <o:TotalTime>106</o:TotalTime>
+  <o:LastPrinted>2001-01-19T16:32:00Z</o:LastPrinted>
+  <o:Created>2001-01-19T16:20:00Z</o:Created>
+  <o:LastSaved>2001-02-13T23:44:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>296</o:Words>
+  <o:Characters>1688</o:Characters>
+  <o:Company>Hewlett-Packard Company</o:Company>
+  <o:Lines>14</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>2072</o:CharactersWithSpaces>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>75</w:Zoom>
+ </w:WordDocument>
+</xml><![endif]-->
+<link rel=Stylesheet type="text/css" media=all href=cw4task.css>
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:128;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1 -369098753 63 0 4129023 0;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	mso-font-charset:128;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1 -369098753 63 0 4129023 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+pre
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:10.0pt;
+	font-family:"Arial Unicode MS";}
+p.fixed, li.fixed, div.fixed
+	{mso-style-name:fixed;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.sectionh, li.sectionh, div.sectionh
+	{mso-style-name:sectionh;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Georgia;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.bodystyle, li.bodystyle, div.bodystyle
+	{mso-style-name:bodystyle;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.iv, li.iv, div.iv
+	{mso-style-name:iv;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:36.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	color:#CEC6FF;
+	font-weight:bold;}
+p.small, li.small, div.small
+	{mso-style-name:small;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.sectionh1
+	{mso-style-name:sectionh1;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	mso-ascii-font-family:Georgia;
+	mso-hansi-font-family:Georgia;
+	font-weight:bold;}
+span.bodystyle1
+	{mso-style-name:bodystyle1;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:Verdana;
+	mso-hansi-font-family:Verdana;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]--><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+</head>
+
+<body bgcolor=white lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<table border=0 cellspacing=0 cellpadding=0 width="100%" bgcolor="#000031"
+ style='width:100.0%;mso-cellspacing:0in;background:#000031;mso-padding-alt:
+ 0in 0in 0in 0in'>
+ <tr>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal><img width=140 height=45 id="_x0000_i1025"
+  src=cpqlogo.gif>&nbsp;&nbsp;&nbsp;</p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><img width=335
+  height=45 id="_x0000_i1026" src=cwtypeiv.gif></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none;mso-hide:all'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<table border=0 cellspacing=1 cellpadding=0 width="100%" style='width:100.0%;
+ mso-cellspacing:.6pt;mso-padding-alt:0in 0in 0in 0in' cols=25>
+ <tr>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>&nbsp; <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>P <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>R <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>O <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>G <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>R <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>A <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>M <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>M <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>I <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>N <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>G <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>&nbsp; <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>C <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>O <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>M <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>P <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>E <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>T <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>I <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>T <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>I <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>O <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>N <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>&nbsp; <o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p style='margin-bottom:12.0pt'><!-- #BeginEditable "Task%20Name%20or%20Title" --><span
+class=sectionh1><span style='font-family:Georgia'>Name That Cow<o:p></o:p></span></span></p>
+
+<table border=0 cellspacing=0 cellpadding=0 width="100%" bgcolor="#cec6ff"
+ style='width:100.0%;mso-cellspacing:0in;background:#CEC6FF;mso-padding-alt:
+ 1.2pt 1.2pt 1.2pt 1.2pt'>
+ <tr>
+  <td style='padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Verdana'>Task #<!-- #BeginEditable "Task%20Number" -->9
+  <o:p></o:p></span></p>
+  </td>
+  <td style='padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>Novice/Advanced
+  <o:p></o:p></span></p>
+  </td>
+  <td style='padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'><!-- #BeginEditable "TaskPoints" -->8
+  Points <o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span class=sectionh1><span style='font-family:Georgia'>Task
+Description</span></span><br>
+<!-- #BeginEditable "Task%20Description" --><span class=bodystyle1><span
+style='font-size:10.0pt;font-family:Verdana'>Among the large Texas cattle
+ranchers, it is customary to brand cows with serial numbers to please the
+Accounting Department.<span style="mso-spacerun: yes">&nbsp; </span>The ranch hands
+don't appreciate the advantage of this filing system and wish to call the
+members of their herd by a sonorous name rather than saying, &quot;C'mon,
+#4734, get along.&quot; <o:p></o:p></span></span></p>
+
+<p><span class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'>Help
+them out by writing a program that will translate the brand serial number of a
+cow into possible names uniquely associated with that serial number.<span
+style="mso-spacerun: yes">&nbsp; </span>Since the ranch hands all have cellular
+saddle phones these days, use the standard Touch-Tone(R) telephone keypad
+mapping to get from numbers to letters (except for &quot;Q&quot; and
+&quot;Z&quot;): <o:p></o:p></span></span></p>
+
+<p class=fixed><span class=bodystyle1><span style='mso-ascii-font-family:"Courier New";
+mso-hansi-font-family:"Courier New"'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>2:
+A,B,C<span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>5:
+J,K,L<span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>8:
+T,U,V</span></span><br>
+<span class=bodystyle1><span style='mso-ascii-font-family:"Courier New";
+mso-hansi-font-family:"Courier New"'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3:
+D,E,F<span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>6:
+M,N,O<span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>9:
+W,X,Y</span></span><br>
+<span class=bodystyle1><span style='mso-ascii-font-family:"Courier New";
+mso-hansi-font-family:"Courier New"'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>4:
+G,H,I<span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>7:
+P,R,S</span></span><br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]><span class=bodystyle1><span style='font-family:Verdana'><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'>Acceptable
+names for the cows are provided via an input file, which contains a list of
+fewer than 5,000 acceptable cattle names (first letter capitalized, of
+course).<span style="mso-spacerun: yes">&nbsp; </span>Take a cow's brand number
+and report which of all the possible words to which that number maps are in the
+given dictionary.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'>For
+instance, the brand number 4734 produces all the following names:<o:p></o:p></span></span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></span></p>
+
+<pre><span class=bodystyle1><span style='font-family:Verdana'>&lt; Isfi Gpeh &#8230; Gpeg Gpdi Gpdh Gpei Gpdg &#8230; Greg &#8230;&gt;<o:p></o:p></span></span></pre>
+
+<p style='margin:0in;margin-bottom:.0001pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'>As it
+happens, the only one of these 81 names that is in the list of valid names is
+&quot;Greg&quot;.<o:p></o:p></span></span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'>Write a
+program that repeatedly asks for the brand number of a cow and prints all the
+valid names that can be generated from that brand number; print &quot;No
+matching names found&quot; if no valid words match. Serial numbers can be as
+many as a 9 digits long. End the program, when the serial number `0' is
+entered.<o:p></o:p></span></span></p>
+
+<p class=fixed style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+class=sectionh1><span style='font-size:12.0pt;font-family:Georgia'>Program
+Input</span></span><br>
+<!-- #BeginEditable "Program%20Input%20Paragraph" -->232<br>
+252473<br>
+727225<br>
+0<o:p></o:p></p>
+
+<p class=fixed style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+class=sectionh1><!-- #EndEditable --><span style='font-size:12.0pt;font-family:
+Georgia'>Program Output</span></span><br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Possible names for #232
+are: Ada<br>
+Possible names for #252473 are: Blaise, Claire<br>
+Possible names for #727225 are: Pascal<o:p></o:p></p>
+
+</div>
+
+<!-- #EndEditable -->
+</body>
+
+<!-- #EndTemplate -->
+</html>

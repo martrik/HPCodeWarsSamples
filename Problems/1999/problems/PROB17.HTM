@@ -1,0 +1,184 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="leej">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <title>Aircraft Geography</title>
+</head>
+<body>
+
+<center><b><font face="Arial,Helvetica">Problem #17</font></b>
+<p><b><i><u><font face="Arial,Helvetica"><font size=+4>Code Wars II</font></font></u></i></b>
+<br><b><font size=+2><font face="Arial,Helvetica">Danger Level: Double
+Black </font><font face="Wingdings">uu</font></font></b></center>
+
+<p><br>
+<br>
+<br>
+<br>
+<p><font size=+2><font face="Wingdings">}</font><b><font face="Arial,Helvetica">Airport
+Geography</font></b><font face="Wingdings">~</font></font>
+<p><b><font face="Arial,Helvetica">Point Value: 15</font></b>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Problem Statement</font></b>
+<p>The FAA regulates and restricts air flight in certain regions, especially
+near airports.&nbsp; Each airport has an air traffic control tower that
+controls the airspace within a designated region.&nbsp; A pilot who enters
+a controlled airspace must usually communicate with the tower, possibly
+changing frequencies while flying through that airspace.&nbsp; In this
+problem we'll write a program to determine which air spaces are entered
+by a specific flight plan.
+<p><b><font face="Arial,Helvetica">Reality: </font></b>In reality, air
+traffic control spaces have irregular 3D shapes.&nbsp; Reality is also
+quite complex in that our planet is apparently spherical.&nbsp; I haven't
+actually observed this myself, but it is a well accepted postulate.&nbsp;
+It certainly makes the math for this problem quite a bit harder than I
+want it to be.
+<p><b><font face="Arial,Helvetica">Simplicity:</font></b> For simplicity,
+we'll model this complex reality by oversimplifying.&nbsp; <i>Radically</i>
+oversimplifying.&nbsp; First, we'll assume that we can map longitude and
+latitude to miles in a linear fashion.&nbsp; This is patently untrue, and
+will make our results wholly inaccurate.&nbsp; But this is only a contest.&nbsp;
+To make our results a little more meaningful, we will restrict our map
+of sites to Texas, because Texas is fairly flat, heh, heh.&nbsp; Based
+on our first assumption we'll also assume that flight paths are straight
+lines in a rectangular (longitude, latitude) coordinate system.&nbsp; Next
+we'll define the controlled airspace as a vertical cylinder with the control
+tower at the center.&nbsp; Finally, based on our first wildly inaccurate
+assumption, we'll convert degrees to miles using the following formulae:
+<center>MILES&nbsp; =&nbsp; 50.23 * DEGREES LONGITUDE
+<br>MILES&nbsp; =&nbsp; 60.07 * DEGREES LATITUDE</center>
+
+<p>The program should read a data file describing all these controller
+air spaces.&nbsp; The program will then read an aircraft departure and
+destination from a separate file.&nbsp; Finally, the program will write
+the names of all of the air spaces through which the aircraft must fly
+in order of their occurrence.
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Program Input</font></b>
+<p>The file AIRSPACE.DAT contains six lines of text for each air traffic
+control tower.&nbsp; Each airport data block contains the name of the airport,
+the tower's longitude and latitude in degrees, and the radius of that tower's
+controlled air space in miles.&nbsp; All airports are located in Texas
+(mostly!).&nbsp; The names and locations of the airports are accurate,
+but the tower control radius figures are fictional for this problem.&nbsp;
+Here are some sample lines for a single airport:
+<p><tt>Airport Name: GEORGE BUSH INTCNTL HOUSTON</tt>
+<br><tt>IATA: IAH</tt>
+<br><tt>Location: HOUSTON, TX, UNITED STATES</tt>
+<br><tt>Latitude: 29&ordm; 58' N</tt>
+<br><tt>Longitude: 95&ordm; 20' W</tt>
+<br><tt>Radius: 25 MILES</tt>
+<p>After reading the airspace data file, the program should read a series
+of flight paths from the input file PROB17.IN.&nbsp; Each line of the input
+file contains (1) the IATA codes for the departure and arrival locations,
+in that order, (2) the departure time in 24 hr format, and (3) the average
+aircraft speed in miles/hour.&nbsp; For example:
+<p><tt>SAT IAH 08:14 120MPH</tt>
+<br><tt>DFW SAT 08:14 120MPH</tt>
+<br><tt>ELP IAH 17:53 185MPH</tt>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Program Output</font></b>
+<p>The program should write the results to the output file PROB17.OUT.&nbsp;
+For each flight plan, the program should write the IATA codes for the departure
+and arrival airports on a single line.&nbsp; Then it must print the names
+of the airports through whose airspace the aircraft will fly.&nbsp; The
+airports should be listed in the order they will be crossed in flight.&nbsp;
+The actual departure and arrival should be considered separate "intersections"
+as shown in the example output.&nbsp; For each airport print (1) the airport
+name, (2) the name of the city where the airport is located, (3) the longitude
+and latitude of the intersection between the flight path and the airspace.&nbsp;
+Note that some air spaces overlap the towers of other airports.&nbsp; All
+airspace's which include the flight path must be reported.&nbsp; For example,
+the output for the first input line above is:
+<p><tt>From: SAT&nbsp;&nbsp; To: IAH</tt>
+<br><tt>DEPART: SAN ANTONIO INTL(SAT)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SAN ANTONIO, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 29&ordm; 32' N by 98&ordm;
+28' W</tt>
+<br><tt>CROSS:&nbsp; NEW BRAUNFELS MUNICIPAL(3R5)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEW BRAUNFELS, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 29&ordm; 34' N by 98&ordm;
+9' W</tt>
+<br><tt>CROSS:&nbsp; GERONIMO FIELD(T90)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SEGUIN, TX, UNITED STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 29&ordm; 35' N by 98&ordm;
+4' W</tt>
+<br><tt>CROSS:&nbsp; SAN ANTONIO INTL(SAT)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SAN ANTONIO, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 29&ordm; 35' N by 98&ordm;
+4' W</tt>
+<br><tt>CROSS:&nbsp; GERONIMO FIELD(T90)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SEGUIN, TX, UNITED STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 29&ordm; 36' N by 97&ordm;
+53' W</tt>
+<br><tt>CROSS:&nbsp; NEW BRAUNFELS MUNICIPAL(3R5)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEW BRAUNFELS, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 29&ordm; 37' N by 97&ordm;
+51' W</tt>
+<br><tt>CROSS:&nbsp; GEORGE BUSH INTCNTL HOUSTON(IAH)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HOUSTON, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 29&ordm; 53' N by 95&ordm;
+55' W</tt>
+<br><tt>ARRIVE: GEORGE BUSH INTCNTL HOUSTON(IAH)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HOUSTON, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 29&ordm; 58' N by 95&ordm;
+20' W</tt>
+<p><b>2 POINT BONUS:</b> In addition to the requirements above, the program
+should also display (1) the average speed on the first line, (2) the prompt
+ENTER or EXIT instead of CROSS, and (3) the estimated time at which the
+aircraft enters and exits each controlled airspace (assuming the aircraft
+maintains the average speed throughout the entire flight).&nbsp; Times
+should be displayed in the same 24 hr format as the input.&nbsp; The same
+example input flight plan would yield this result:
+<p><tt>From: SAT&nbsp;&nbsp; To: IAH&nbsp;&nbsp; AvgSpeed:&nbsp;&nbsp;
+120MPH</tt>
+<br><tt>DEPART: SAN ANTONIO INTL(SAT)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SAN ANTONIO, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08:14&nbsp;&nbsp; 29&ordm;
+32' N by 98&ordm; 28' W</tt>
+<br><tt>ENTER:&nbsp; NEW BRAUNFELS MUNICIPAL(3R5)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEW BRAUNFELS, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08:21&nbsp;&nbsp; 29&ordm;
+34' N by 98&ordm; 9' W</tt>
+<br><tt>ENTER:&nbsp; GERONIMO FIELD(T90)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SEGUIN, TX, UNITED STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08:23&nbsp;&nbsp; 29&ordm;
+35' N by 98&ordm; 4' W</tt>
+<br><tt>EXIT:&nbsp;&nbsp; SAN ANTONIO INTL(SAT)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SAN ANTONIO, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08:23&nbsp;&nbsp; 29&ordm;
+35' N by 98&ordm; 4' W</tt>
+<br><tt>EXIT:&nbsp;&nbsp; GERONIMO FIELD(T90)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SEGUIN, TX, UNITED STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08:28&nbsp;&nbsp; 29&ordm;
+36' N by 97&ordm; 53' W</tt>
+<br><tt>EXIT:&nbsp;&nbsp; NEW BRAUNFELS MUNICIPAL(3R5)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEW BRAUNFELS, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08:29&nbsp;&nbsp; 29&ordm;
+37' N by 97&ordm; 51' W</tt>
+<br><tt>ENTER:&nbsp; GEORGE BUSH INTCNTL HOUSTON(IAH)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HOUSTON, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 09:18&nbsp;&nbsp; 29&ordm;
+53' N by 95&ordm; 55' W</tt>
+<br><tt>ARRIVE: GEORGE BUSH INTCNTL HOUSTON(IAH)</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HOUSTON, TX, UNITED
+STATES</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 09:33&nbsp;&nbsp; 29&ordm;
+58' N by 95&ordm; 20' W</tt>
+<br>&nbsp;
+</body>
+</html>

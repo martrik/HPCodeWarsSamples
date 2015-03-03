@@ -1,0 +1,238 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/TaskDescription.dwt" --> 
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Compaq Code Wars IV</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+-->
+</style>
+<link rel="stylesheet" href="cw4task.css">
+</head>
+<body bgcolor="#FFFFFF">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000031">
+ <tr> 
+  <td><img src="cpqlogo.gif" width="140" height="45">&nbsp;&nbsp;&nbsp;</td>
+  <td> 
+   <div align="right"><img src="cwtypeiv.gif" width="335" height="45"></div>
+  </td>
+ </tr>
+</table>
+<table BORDER=0 CELLSPACING=1 CELLPADDING=0 COLS=25 WIDTH="100%" class="bodystyle" >
+ <tr class="bodystyle"> 
+  <td> 
+   <div align="right">&nbsp; </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">P </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">R </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">G </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">R </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">A </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">N </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">G </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">&nbsp; </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">C </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">P </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">E </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">T </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">T </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">N </div>
+  </td>
+  <td> 
+   <div align="right">&nbsp; </div>
+  </td>
+ </tr>
+</table>
+<p> <!-- #BeginEditable "Task%20Name%20or%20Title" --><span class="sectionh">Particle 
+ Trajectory</span><!-- #EndEditable --><br>
+ <br>
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#CEC6FF">
+ <tr> 
+  <td> 
+   <center class="bodystyle">
+    Task #<!-- #BeginEditable "Task%20Number" -->6<!-- #EndEditable --> 
+   </center>
+  </td>
+  <td> 
+   <center class="bodystyle">Novice/Advanced 
+   </center>
+  </td>
+  <td> 
+   <center class="bodystyle">
+    <!-- #BeginEditable "TaskPoints" -->6<!-- #EndEditable --> Points 
+   </center>
+  </td>
+ </tr>
+</table>
+<p><span class="sectionh">Task Description</span><br>
+<!-- #BeginEditable "Task%20Description" --> <span class="bodystyle">A trajectory 
+is a curve that describes the motion of an object, such as the orbit of a comet 
+or the flight path of a rocket. </span> 
+<table align=right>
+ <tr> 
+  <td>&nbsp;</td>
+  <td><img src="trfig1.gif" width="170" height="64"></td>
+ </tr>
+ <tr> 
+  <td>&nbsp;&nbsp;&nbsp;</td>
+  <td> 
+   <center>
+    <span class="bodystyle">Figure 1</span> 
+   </center>
+  </td>
+ </tr>
+</table>
+<span class="bodystyle">Closer to the earth, an object that is thrust into the 
+air, like a golf ball or artillery shell, also follows a curved motion from launch 
+to impact. </span> <span class="bodystyle"><b>Figure 1</b> is an example trajectory 
+graph showing height and distance travelled.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your program will read the initial speed and launch 
+angle from a file and then compute the flight time of an object along its trajectory, 
+and also compute both the maximum vertical height and the horizontal distance 
+travelled. For contest purposes we assume that (1) the only external force applied 
+during the object's flight is gravity, and (2) the ground is completely flat. 
+<br>
+</span><!-- #EndEditable --> 
+<p></p> 
+<p><span class="sectionh">Program Input</span><br>
+ <!-- #BeginEditable "Program%20Input%20Paragraph" --><span class="bodystyle">The 
+ first line of the input file specifies the number of trajectories described in 
+ the file. Each line thereafter is a separate trajectory descriptor. Each trajectory 
+ is described by two values: (1) the initial speed in meters per second, and (2) 
+ the launch angle in degrees.</span><!-- #EndEditable --></p>
+<!-- #BeginEditable "Program%20Input%20Example" --> 
+<p class="fixed">2<br>
+ 44.8 30.0<br>
+ 72.1 56.9<br>
+</p>
+<!-- #EndEditable --> 
+<p><span class="sectionh">Program Output</span><br>
+ <!-- #BeginEditable "Program%20Output%20Paragraph" --><span class="bodystyle">The 
+ program must write the three computed values to the output file using the text 
+ prompts shown in the example output below. Each trajectory should produce four 
+ lines of output in the order shown. You must include unit measures (like meters 
+ and seconds). For contest purposes you may ignore round-off error. </span><!-- #EndEditable --></p>
+<!-- #BeginEditable "ExampleOutput" --> 
+<p class="fixed">trajectory 1<br>
+ horizontal distance: 177 meters<br>
+ flight time: 4.57 seconds<br>
+ maximum height: 25.6 meters<br>
+ trajectory 2<br>
+ horizontal distance: 485 meters<br>
+ flight time: 12.3 seconds<br>
+ maximum height: 186 meters </p>
+<p class="bodystyle"><b class="sectionh"><br>
+ </b>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td>
+   <p class="bodystyle"><b class="sectionh">Hint</b><br>
+   <table align=right>
+    <tr> 
+     <td>&nbsp;</td>
+     <td><img src="trfig2.gif" width="110" height="110"></td>
+    </tr>
+    <tr> 
+     <td>&nbsp;&nbsp;&nbsp;</td>
+     <td> 
+      <center>
+       <span class="bodystyle">Figure 2</span> 
+      </center>
+     </td>
+    </tr>
+   </table>
+   <span class="bodystyle">To solve this problem you'll need to know some specific 
+   math and physics. Since this is a programming contest and not a physics contest, 
+   we'll provide most of the basic information you should need to solve the problem.<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To compute the horizontal (or X axis) and vertical 
+   (or Y axis) components of the initial velocity use the formulas below. See 
+   <b>Figure 2</b> for the corresponding vector diagram.<br>
+   </span> 
+   <center>
+    <span class="bodystyle"> V<sub class="small">x0</sub> = V<sub class="small">0</sub> 
+    cos<font face="Symbol">q</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V<sub class="small">y0</sub> 
+    = V<sub class="small">0</sub> sin<font face="Symbol">q</font> </span> 
+   </center>
+   <span class="bodystyle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You should also use the 
+   formula for linear distance d=½at²+v<sub class="small">0</sub>t, linear velocity 
+   v=at+v<sub class="small">0</sub>, and the gravitational acceleration constant 
+   a=-9.8m/s². The variables in these formulas are: a=acceleration, v=velocity*, 
+   t=time, d=distance.</span> 
+   <p class="bodystyle">One way to solve this task is to break it down into sub 
+    tasks like this:<br>
+    1. Compute the time required to acheive maximum height by solving the linear 
+    velocity equation where v<sub class="small">y</sub>=a<sub class="small">y</sub>t+v<sub class="small">y0</sub>=0 
+    <br>
+    2. Multiply the result of Step 1 by two to determine the total flight time.<br>
+    3. Use the result of Step 1 in the linear distance formula to compute the 
+    maximum vertical height.<br>
+    4. Use the result of Step 2 in the linear distance formula to compute the 
+    horizontal distance travelled.<br>
+   <p class="bodystyle"><br>
+    <span class="small">* To be precise we are using the variable v as speed and 
+    not velocity <i>per se</i>. Vector math is beyond the scope of this task presentation.</span> 
+  </td>
+ </tr>
+</table>
+<p class="bodystyle"><b class="sectionh"> </b>
+<!-- #EndEditable --> 
+</body>
+<!-- #EndTemplate -->
+</html>

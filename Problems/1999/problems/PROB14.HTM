@@ -1,0 +1,50 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="leej">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <title>Arithmetic Expression Evaluation</title>
+</head>
+<body>
+
+<center><b><font face="Arial,Helvetica">Problem #14</font></b>
+<p><b><i><u><font face="Arial,Helvetica"><font size=+4>Code Wars II</font></font></u></i></b>
+<br><b><font face="Arial,Helvetica"><font size=+2>Danger Level: Black</font></font></b></center>
+
+<p><br>
+<br>
+<p><font size=+2><font face="Wingdings">}</font><b><font face="Arial,Helvetica">Arithmetic
+Expression Evaluation</font></b><font face="Wingdings">~</font></font>
+<p><b><font face="Arial,Helvetica">Point Value: 11</font></b>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Problem Statement</font></b>
+<p><font face="Times New Roman,Times">Write a program to evaluate numerical
+expressions that include addition, subtraction, multiplication, and division.&nbsp;
+You will need to use proper operator precedence and parenthetical grouping.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Program Input</font></b>
+<p><font face="Times New Roman,Times">Each line of the input file PROB14.IN
+is an expression to be evaluated.&nbsp; The expression syntax is identical
+to C, except all numbers are real (float) by default.&nbsp; The program
+should be able to handle up to 16 nested parenthetical groups.&nbsp; Here
+are some example lines from an input file:</font>
+<p><font face="Courier New,Courier">3.2 + 7.091 * (-19.4 - 6.3)</font>
+<br><font face="Courier New,Courier">(1.3+0.1*(4.3+7.4*19.3-72/(3.14+2.4*9.2)+96))/(64.3-13*(9-4/-3))</font>
+<br><font face="Courier New,Courier">8.4 * 19.6)</font>
+<br><font face="Courier New,Courier">5.6 + ((32 / (71.3 - 9)</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Program Output</font></b>
+<p><font face="Times New Roman,Times">The program should numerically evaluate
+the expression and print the result to PROB14.OUT, the output file.&nbsp;
+If the program detects a group of incorrect parentheses then it must display
+the proper error message (only the first error if there are more than one).&nbsp;
+Here are the output lines for the above input:</font>
+<p><font face="Courier New,Courier">-179.0387</font>
+<br><font face="Courier New,Courier">-0.3616351112589</font>
+<br><font face="Courier New,Courier">error: unexpected )</font>
+<br><font face="Courier New,Courier">error: unmatched (</font>
+<br>&nbsp;
+</body>
+</html>

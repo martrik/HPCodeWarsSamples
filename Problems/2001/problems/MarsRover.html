@@ -1,0 +1,306 @@
+<html><!-- #BeginTemplate "/Templates/TaskDescription.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Code Wars IV</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+-->
+</style><link rel="stylesheet" href="cw4task.css"></head>
+
+<body bgcolor="#FFFFFF">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000031">
+ <tr>
+  <td><img src="cpqlogo.gif" width="140" height="45">&nbsp;&nbsp;&nbsp;</td>
+  <td>
+   <div align="right"><img src="cwtypeiv.gif" width="335" height="45"></div>
+  </td>
+ </tr>
+</table>
+<table BORDER=0 CELLSPACING=1 CELLPADDING=0 COLS=25 WIDTH="100%" class="bodystyle" >
+ <tr class="bodystyle"> 
+  <td> 
+   <div align="right">&nbsp; </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">P </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">R </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">G </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">R </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">A </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">N </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">G </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">&nbsp; </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">C </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">P </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">E </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">T </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">T </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">N </div>
+  </td>
+  <td> 
+   <div align="right">&nbsp; </div>
+  </td>
+ </tr>
+</table>
+<p> <!-- #BeginEditable "Task%20Name%20or%20Title" --><span class="sectionh">Mars 
+ Rover</span><!-- #EndEditable --><br>
+ <br>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#CEC6FF">
+ <tr> 
+  <td> 
+   <center class="bodystyle">
+    Task #10 
+   </center>
+  </td>
+  <td> 
+   <center class="bodystyle">Novice/Advanced 
+   </center>
+  </td>
+  <td> 
+   <center class="bodystyle">
+    <!-- #BeginEditable "TaskPoints" -->10<!-- #EndEditable --> Points 
+   </center>
+  </td>
+ </tr>
+</table>
+<p><span class="sectionh">Task Description</span><br>
+ 
+<!-- #BeginEditable "Task%20Description" --><span class="bodystyle">Your team 
+is assigned to write simple navigation code for a Mars PRM (Planetary Rover Module). 
+The PRM must be able to execute these simple commands: MOVE, RIGHT, LEFT, and 
+STOP. These commands are transmitted to the PRM from the ADV (Atmospheric Descent 
+Vehicle) which carried the PRM to the Martian surface. The PRM must supply feedback 
+status to the ADV after each command (see <i>Table 1</i>).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The martian surface is represented by a two dimensional 
+grid of ASCII text characters summarized in <i>Table 2</i>. </span> 
+<div align="Left"><br>
+</div>
+<table cellpadding="1" cellspacing="0" border="0" align="Center">
+<tr><td><table cellpadding="1" cellspacing="0" border="0" align="Center">
+  <tbody>
+    <tr valign="Top" bgcolor="#cccccc">
+      
+   <td valign="Top"><tt class="fixed">COMMAND</tt></td>
+      <td valign="Top"><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+      
+   <td valign="Top"><tt class="fixed">STATUS</tt></td>
+    </tr>
+    <tr valign="Top">
+      
+   <td valign="Top"><tt><nobr class="fixed">LEFT or RIGHT</nobr></tt></td>
+      <td><tt>&nbsp;</tt></td>
+      
+   <td valign="Top"><tt class="fixed">COMPLETE</tt></td>
+    </tr>
+    <tr valign="Top">
+      
+   <td valign="Top"><tt class="fixed">MOVE </tt></td>
+      <td><tt>&nbsp;</tt></td>
+      
+   <td valign="Top"><nobr><tt class="fixed">SUCCESS or FAILURE</tt></nobr></td>
+    </tr>
+    <tr valign="Top">
+      
+   <td valign="Top"><tt class="fixed">STOP</tt></td>
+      <td><tt>&nbsp;</tt></td>
+      
+   <td valign="Top"><tt class="fixed">STOPPED</tt></td>
+    </tr>
+  
+  </tbody>
+  <caption ALIGN=BOTTOM><span class="bodystyle"><b><i>Table 1. Command Set and<br>Return Status Codes</i></b></span></caption>
+</table>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+   <table cellpadding="0" cellspacing="0" border="0"  >
+    <tr valign="Top" bgcolor="#cccccc"> 
+     <td><span class="small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+     <td class="bodystyle"><span  class="small">CHAR</span></td>
+     <td class="small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+     <td class="bodystyle"><span  class="small">KEY</span></td>
+    </tr>
+    <tr> 
+     <td><span class="small">&nbsp;</span></td>
+     <td class="bodystyle"> 
+      <center>
+       <span  class="small">.</span> 
+      </center>
+     </td>
+     <td class="small">&nbsp;</td>
+     <td class="bodystyle"><span  class="small">flat ground</span></td>
+    </tr>
+    <tr> 
+     <td><span class="small">&nbsp;</span></td>
+     <td class="bodystyle"> 
+      <center>
+       <span class="small">*</span> 
+      </center>
+     </td>
+     <td class="small">&nbsp;</td>
+     <td class="bodystyle"><span class="small">obstacle</span></td>
+    </tr>
+    <tr> 
+     <td><span class="small">&nbsp;</span></td>
+     <td class="bodystyle"> 
+      <center>
+       <span class="small">A</span> 
+      </center>
+     </td>
+     <td class="small">&nbsp;</td>
+     <td class="bodystyle"><span class="small">start position</span></td>
+    </tr>
+    <tr> 
+     <td><span class="small">&nbsp;</span></td>
+     <td class="bodystyle"> 
+      <center>
+       <span class="small">o</span> 
+      </center>
+     </td>
+     <td class="small">&nbsp;</td>
+     <td class="bodystyle"><span class="small">ore</span></td>
+    </tr>
+    <tr> 
+     <td><span class="small">&nbsp;</span></td>
+     <td class="bodystyle"> 
+      <center>
+       <span class="small">#</span> 
+      </center>
+     </td>
+     <td class="small">&nbsp;</td>
+     <td class="bodystyle"><span class="small">crystal</span></td>
+    </tr>
+    <caption ALIGN=BOTTOM><span class="bodystyle"><b><i><nobr>Table 2. Grid Chars</nobr></i></b></span></caption>
+   </table>
+</td></tr>
+</table>
+ <span class="bodystyle"> <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Note:</i> A move command may fail (at least partially) 
+ if the PRM detects an obstacle in its path. When such a failure occurs, the PRM 
+ must indicate the relative position of the obstacle during the feedback transmission 
+ to the ADV.</span><!-- #EndEditable --><p></p>
+<p><span class="sectionh">Program Input</span><br>
+ <!-- #BeginEditable "Program%20Input%20Paragraph" --><span class="bodystyle">The 
+ input file consists of three sections: a <i>header</i>, a <i>map</i>, and a <i>command 
+ sequence</i>. The header is a single line of text with two fields: (1) an integer 
+ map size Z (where Z < 20) and (2) a starting orientation string. The orientation 
+ string may be either NORTH, SOUTH, EAST or WEST, with NORTH being at the top 
+ of the screen (or file). This orientation string tells your program which direction 
+ the PRM is facing at the start of the exploration.<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The map is a character array of Z lines with 
+ Z characters per line separated by spaces. The valid input map characters and 
+ their meanings are shown in <i>Table 2</i> above. The command sequence follows 
+ the format in the Task Description. The MOVE command is followed by an integer 
+ declaring the number of units which the PRM must move forward.</span><!-- #EndEditable --></p>
+<!-- #BeginEditable "Program%20Input%20Example" --> 
+<table>
+<tr><td>
+<p class="fixed">8 NORTH<br>
+ . . . . . . . .<br>
+ . . . . . . . .<br>
+ . . . . . . * .<br>
+    . . . . . . . .<br>
+ . * . . . . # .<br>
+    . . o . . . . .<br>
+ . . . . . . . .<br>
+ . A . . * . . .<br>
+ MOVE 3 <br>
+ RIGHT<br>
+ MOVE 2<br>
+ LEFT<br>
+ MOVE 4<br>
+ STOP</p>
+ </td></tr></table>
+<!-- #EndEditable --> 
+<p><span class="sectionh">Program Output</span><br>
+ <!-- #BeginEditable "Program%20Output%20Paragraph" --><span class="bodystyle">The 
+ output file must consist of two sections: a <i>command feedback log</i> and a 
+ <i>result map</i>. The command feedback log must have a line of text for each 
+ command from the input file. The first part of the line echoes the command, and 
+ the second part reports the ADV feedback string. If ore or crystal is discovered 
+ on the path then the program must print a status message indicating the type 
+ of discovery and the position (see the example below). You may assume that the 
+ move commands will not put the PRM outside the map boundaries.<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The result map must be printed according to these 
+ rules: (1) It must show the path taken by the PRM with plus characters. (2) It 
+ must show the start position with an A and the final stopped position of the 
+ PRM with a capital P. (3) It must show obstacles that interfered with movement 
+ with a * character. (4) It must show ore and crystal discoveries with the appropriate 
+ # or o character. (5) All other positions must be written with a ? character.<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your program must write the command feedback log 
+ and result map with the same syntax and format as the sample below.</span><!-- #EndEditable --></p>
+<!-- #BeginEditable "ExampleOutput" --> 
+<p class="fixed">MOVE 3: FAILURE DUE TO OBSTACLE AT POSITION 3.<br>
+ RIGHT: COMPLETE.<br>
+ MOVE 2: SUCCESS.<br>
+ ORE DISCOVERED AT POSITION 1.<br>
+ LEFT: COMPLETE.<br>
+ MOVE 4: SUCCESS.<br>
+ STOP: STOPPED.<br>
+ ? ? ? ? ? ? ? ?<br>
+ ? ? ? P ? ? ? ?<br>
+ ? ? ? . ? ? ? ?<br>
+ ? ? ? . ? ? ? ?<br>
+ ? * ? . ? ? ? ?<br>
+ ? . o . ? ? ? ?<br>
+ ? . ? ? ? ? ? ?<br>
+ ? A ? ? ? ? ? ?</p>
+<!-- #EndEditable --> 
+</body>
+<!-- #EndTemplate --></html>

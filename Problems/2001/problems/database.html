@@ -1,0 +1,178 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/TaskDescription.dwt" --> 
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Compaq Code Wars IV</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+-->
+</style>
+<link rel="stylesheet" href="cw4task.css">
+</head>
+<body bgcolor="#FFFFFF">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000031">
+ <tr> 
+  <td><img src="cpqlogo.gif" width="140" height="45">&nbsp;&nbsp;&nbsp;</td>
+  <td> 
+   <div align="right"><img src="cwtypeiv.gif" width="335" height="45"></div>
+  </td>
+ </tr>
+</table>
+<table BORDER=0 CELLSPACING=1 CELLPADDING=0 COLS=25 WIDTH="100%" class="bodystyle" >
+ <tr class="bodystyle"> 
+  <td> 
+   <div align="right">&nbsp; </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">P </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">R </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">G </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">R </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">A </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">N </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">G </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">&nbsp; </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">C </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">M </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">P </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">E </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">T </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">T </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">I </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">O </div>
+  </td>
+  <td> 
+   <div align="right" class="bodystyle">N </div>
+  </td>
+  <td> 
+   <div align="right">&nbsp; </div>
+  </td>
+ </tr>
+</table>
+<p> <!-- #BeginEditable "Task%20Name%20or%20Title" --><span class="sectionh">Simple 
+ Database</span><!-- #EndEditable --><br>
+ <br>
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#CEC6FF">
+ <tr> 
+  <td> 
+   <center class="bodystyle">
+    Task #<!-- #BeginEditable "Task%20Number" -->7<!-- #EndEditable --> 
+   </center>
+  </td>
+  <td> 
+   <center class="bodystyle">Novice/Advanced 
+   </center>
+  </td>
+  <td> 
+   <center class="bodystyle">
+    <!-- #BeginEditable "TaskPoints" -->7<!-- #EndEditable --> Points 
+   </center>
+  </td>
+ </tr>
+</table>
+<p><span class="sectionh">Task Description</span><br>
+ <!-- #BeginEditable "Task%20Description" --><span class="bodystyle">Cheap secondary 
+ storage (like hard drives and CD-ROMs) have encouraged the widespread use of 
+ computer databases. Databases are used in a wide variety of applications including 
+ ecommerce, factory automation, accounting, and company personnel records. Your 
+ task is to write a simple storage and query system.</span><!-- #EndEditable --></p>
+<p><span class="sectionh">Program Input</span><br>
+ <!-- #BeginEditable "Program%20Input%20Paragraph" --><span class="bodystyle">The 
+ input file consists of a header, a data section, and a query section. The first 
+ line of the header contains three integers: the number of data fields, the number 
+ of data records, and the number of queries. The second line of the header lists 
+ each field name. Field names are separated by commas. The maximum number of fields 
+ is nine, the maximum number of data rows or queries is one thousand.<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The data section contains has a single line for 
+ each data record. The data field values are separated by commas.<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There is one query per line in the query section 
+ of the input file. Each query consists of a field name, an equal sign, and a 
+ key value. A very simple example input file is shown below.</span><!-- #EndEditable --></p>
+<!-- #BeginEditable "Program%20Input%20Example" --> 
+<p class="fixed">5 6 2<br>
+ LASTNAME, FIRSTNAME, TITLE, DEPARTMENT, SALARY<br>
+ Carter, Steve, Admin. Assistant, Facilities, 2700<br>
+ Lin, Kyle, Manager, North America Sales, 4200<br>
+ Gonzales, Maria, Engineer, Manufacturing Support, 4100<br>
+ Anderson, Greg, Maintenance Technician, Facilities, 2950<br>
+ Carter, Linda, Heroine, Customer Relations, 6500<br>
+ Mudhi, Tariq, Sales Specialist, North America Sales, 3200<br>
+ LASTNAME = Carter<br>
+ DEPARTMENT = Manufacturing Support<br>
+</p>
+<!-- #EndEditable --> 
+<p><span class="sectionh">Program Output</span><br>
+ <!-- #BeginEditable "Program%20Output%20Paragraph" --><span class="bodystyle">The 
+ program must respond to each query by writing a result table to the output file. 
+ The table should show all data rows that match the query. The result table must 
+ have a column for each data field, and the columns must align left, including 
+ the column headings. Each result set must be separated by a blank line. See the 
+ results below for examples.</span><!-- #EndEditable --></p>
+<!-- #BeginEditable "ExampleOutput" --> 
+<p class="fixed">LASTNAME FIRSTNAME TITLE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DEPARTMENT 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SALARY<br>
+ Carter&nbsp;&nbsp;&nbsp;Steve&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admin. Assistant Facilities 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2700<br>
+ Carter&nbsp;&nbsp;&nbsp;Linda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heroine&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customer 
+ Relations&nbsp;&nbsp;&nbsp;&nbsp; 6500<br>
+ <br>
+ LASTNAME FIRSTNAME TITLE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DEPARTMENT 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SALARY<br>
+ Gonzales Maria&nbsp;&nbsp;&nbsp;&nbsp; Engineer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manufacturing 
+ Support &nbsp;4100<br>
+</p>
+<!-- #EndEditable --> 
+</body>
+<!-- #EndTemplate -->
+</html>

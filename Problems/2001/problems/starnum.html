@@ -1,0 +1,414 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+<!-- #BeginTemplate "/Templates/TaskDescription.dwt" -->
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./starnum_files/filelist.xml">
+<link rel=Edit-Time-Data href="./starnum_files/editdata.mso">
+<link rel=OLE-Object-Data href="./starnum_files/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Compaq Code Wars IV - Simple Database</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Jeff Galloway</o:Author>
+  <o:LastAuthor>Scott Harsany</o:LastAuthor>
+  <o:Revision>10</o:Revision>
+  <o:TotalTime>412</o:TotalTime>
+  <o:Created>2001-01-24T02:04:00Z</o:Created>
+  <o:LastSaved>2001-02-13T23:53:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>238</o:Words>
+  <o:Characters>1362</o:Characters>
+  <o:Company>Hewlett-Packard Company</o:Company>
+  <o:Lines>11</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1672</o:CharactersWithSpaces>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>75</w:Zoom>
+ </w:WordDocument>
+</xml><![endif]-->
+<link rel=Stylesheet type="text/css" media=all href=cw4task.css>
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.fixed, li.fixed, div.fixed
+	{mso-style-name:fixed;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.sectionh, li.sectionh, div.sectionh
+	{mso-style-name:sectionh;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Georgia;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.bodystyle, li.bodystyle, div.bodystyle
+	{mso-style-name:bodystyle;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.iv, li.iv, div.iv
+	{mso-style-name:iv;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:36.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	color:#CEC6FF;
+	font-weight:bold;}
+p.small, li.small, div.small
+	{mso-style-name:small;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.sectionh1
+	{mso-style-name:sectionh1;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	mso-ascii-font-family:Georgia;
+	mso-hansi-font-family:Georgia;
+	font-weight:bold;}
+span.bodystyle1
+	{mso-style-name:bodystyle1;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:Verdana;
+	mso-hansi-font-family:Verdana;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1031"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]--><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+</head>
+
+<body bgcolor=white lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<table border=0 cellspacing=0 cellpadding=0 width="100%" bgcolor="#000031"
+ style='width:100.0%;mso-cellspacing:0in;background:#000031;mso-padding-alt:
+ 0in 0in 0in 0in'>
+ <tr>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal><img width=140 height=45 id="_x0000_i1025"
+  src=cpqlogo.gif>&nbsp;&nbsp;&nbsp;</p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><img width=335
+  height=45 id="_x0000_i1026" src=cwtypeiv.gif></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none;mso-hide:all'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<table border=0 cellspacing=1 cellpadding=0 width="100%" style='width:100.0%;
+ mso-cellspacing:.7pt;mso-padding-alt:0in 0in 0in 0in' cols=25>
+ <tr>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>&nbsp; <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>P <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>R <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>O <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>G <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>R <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>A <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>M <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>M <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>I <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>N <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>G <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>&nbsp; <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>C <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>O <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>M <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>P <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>E <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>T <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>I <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>T <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>I <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>O <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>N <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>&nbsp; <o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p style='margin-bottom:12.0pt'><!-- #BeginEditable "Task%20Name%20or%20Title" --><span
+class=sectionh1><span style='font-family:Georgia'>Magic Star Numbers</span></span></p>
+
+<table border=0 cellspacing=0 cellpadding=0 width="100%" bgcolor="#cec6ff"
+ style='width:100.0%;mso-cellspacing:0in;background:#CEC6FF;mso-padding-alt:
+ 1.5pt 1.5pt 1.5pt 1.5pt'>
+ <tr>
+  <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Verdana'>Task #<!-- #BeginEditable "Task%20Number" -->15
+  <o:p></o:p></span></p>
+  </td>
+  <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Verdana'>Advanced</span><span
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'> <span
+  lang=FR><o:p></o:p></span></span></p>
+  </td>
+  <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'><!-- #BeginEditable "TaskPoints" -->18
+  Points <o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p><span class=sectionh1><span style='font-family:Georgia'>Task Description</span></span><br>
+<!-- #BeginEditable "Task%20Description" --><span class=bodystyle1><span
+style='font-size:10.0pt;font-family:Verdana'>This is a magic number
+puzzle.<span style="mso-spacerun: yes">&nbsp; </span>You are given a
+six-pointed star as shown in the illustration below.<span style="mso-spacerun:
+yes">&nbsp; </span>You must assign a unique value from 5 to 16 at each line intersection
+in the star, with A = 5.<span style="mso-spacerun: yes">&nbsp; </span>What
+number assignments result in <b>all sums </b>along any straight line equaling
+42?<span style="mso-spacerun: yes">&nbsp; </span>For instance A + G + H + C =
+42, C + I + J + E = 42 etc.<o:p></o:p></span></span></p>
+
+<p><span style='font-size:10.0pt;font-family:Verdana'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1027" type="#_x0000_t75" style='width:261pt;
+ height:219pt' o:ole="">
+ <v:imagedata src="./starnum_files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=348 height=292
+src="./starnum_files/image002.gif" v:shapes="_x0000_i1027"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Visio.Drawing.6" ShapeID="_x0000_i1027"
+  DrawAspect="Content" ObjectID="_1043591950">
+ </o:OLEObject>
+</xml><![endif]--><span class=bodystyle1><o:p></o:p></span></span></p>
+
+<p><span class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'>Your
+task is to write a program that will find all the answers to this puzzle.<span
+style="mso-spacerun: yes">&nbsp; </span>Mirror versions of an answer are
+considered a different answer.<o:p></o:p></span></span></p>
+
+<p class=fixed><span class=sectionh1><span style='font-size:12.0pt;font-family:
+Georgia'>Program Input</span></span><br>
+<!-- #BeginEditable "Program%20Input%20Paragraph" --><span class=bodystyle1><span
+style='font-family:Verdana;mso-bidi-font-family:"Times New Roman"'>None.<o:p></o:p></span></span></p>
+
+<p><span class=sectionh1><span style='font-family:Georgia'>Program Output</span></span><br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" --><span class=bodystyle1><span
+style='font-size:10.0pt;font-family:Verdana'>The program screen output should
+look like what follows.<span style="mso-spacerun: yes">&nbsp; </span>The
+program should list the title, a &#8220;.&#8221; for every 100,000 possible solutions
+checked, each answer as it is found on a separate line, the number of solutions
+checked and the total number of answers found at the end of the program.</span></span><o:p></o:p></p>
+
+<p class=fixed style='margin:0in;margin-bottom:.0001pt'><!-- #BeginEditable "ExampleOutput" -->Magic
+Star Number Solutions</p>
+
+<p><span class=bodystyle1><i><span style='font-size:10.0pt;font-family:Verdana'>&#8230;&#8230;&#8230;some
+number of periods&#8230;&#8230;&#8230;<o:p></o:p></span></i></span></p>
+
+<p class=fixed style='margin:0in;margin-bottom:.0001pt'>Solution 1: A=5 B=7 C=6
+D=8 E=13 F=9 G=16 H=15 I=12 J=11 K=14 L=10</p>
+
+<p><span class=bodystyle1><i><span style='font-size:10.0pt;font-family:Verdana'>&#8230;&#8230;&#8230;the
+rest of the solutions and periods&#8230;&#8230;&#8230;<o:p></o:p></span></i></span></p>
+
+<p class=fixed style='margin:0in;margin-bottom:.0001pt'>Total solutions checked
+= ??</p>
+
+<p class=fixed style='margin:0in;margin-bottom:.0001pt'>Total solutions found =
+??</p>
+
+<p><span class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'>The
+Program should also write the answers to a file, one solution per line, values
+separated by commas, with the solution # as the first item and the numbers for
+the solution in A to L order following, as shown below.<o:p></o:p></span></span></p>
+
+<p class=fixed style='margin:0in;margin-bottom:.0001pt'><span class=bodystyle1><span
+style='font-family:Verdana'>1,5,7,6,8,13,9,16,15,12,11,14,10<o:p></o:p></span></span></p>
+
+<p class=fixed style='margin:0in;margin-bottom:.0001pt'><span class=bodystyle1><span
+style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></span></p>
+
+</div>
+
+</body>
+
+<!-- #EndTemplate -->
+</html>

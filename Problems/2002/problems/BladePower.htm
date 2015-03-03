@@ -1,0 +1,495 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>HP Code Wars</title>
+<style>
+<!--
+
+td { font-family: geneva, arial, helvetica; font-size: 12pt; font-weight: bold }
+a:hover {color: red; font-weight: bold}
+a {text-decoration: none}
+ li.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Arial;
+	margin-left:0in; margin-right:0in; margin-top:0in}
+ table.MsoNormalTable
+	{mso-style-parent:"";
+	font-size:10.0pt;
+	font-family:"Times New Roman"}
+-->
+</style>
+</head>
+
+<body topmargin="0" leftmargin="0" vlink="#FFFFFF" link="#FFFFFF">
+
+<table border="0" width="100%" height="100%">
+  <tr>
+    <td width="100%" height="100%">
+    <table border="0" cellspacing="0" width="100%" height="100%">
+      <tr>
+        <td valign="top" align="left">
+        <blockquote>
+          <div align="left">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber2">
+              <tr>
+                <td valign="top">
+                <img border="0" src="../logo.gif" alt="Code Wars V" width="355" height="67"><div align="left">
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber6" height="77">
+                    <tr>
+                      <td width="200" height="19">&nbsp;</td>
+                      <td height="19">&nbsp;</td>
+                      <td height="19">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="200" bgcolor="#C0C0C0" height="21">
+                      <p align="right"><font face="Arial, Helvetica" size="2">
+                      Program / Task Name:</font></td>
+                      <td width="15" bgcolor="#C0C0C0" height="21">&nbsp;</td>
+                      <td bgcolor="#000000" valign="top" height="21">
+                      <font face="Arial, Helvetica" size="2" color="#FFFFFF">&nbsp;</font><font face="Arial, Helvetica" size="4" color="#FF0000">Server 
+                      Blade Power Consumption</font></td>
+                    </tr>
+                    <tr>
+                      <td width="200" bgcolor="#C0C0C0" height="19">
+                      <p align="right"><font face="Arial, Helvetica" size="2">
+                      Level:</font></td>
+                      <td bgcolor="#C0C0C0" height="19">&nbsp;</td>
+                      <td bgcolor="#000000" height="19">
+                      <p align="left">
+                      <font face="Arial, Helvetica" size="2" color="#FFFFFF">
+                      &nbsp;Advanced</font></td>
+                    </tr>
+                    <tr>
+                      <td width="200" bgcolor="#C0C0C0" height="18">
+                      <p align="right"><font face="Arial, Helvetica" size="2">
+                      Point Value:</font></td>
+                      <td bgcolor="#C0C0C0" height="18">&nbsp;</td>
+                      <td bgcolor="#000000" height="18">
+                      <p align="left">
+                      <font face="Arial, Helvetica" size="2" color="#FFFFFF">&nbsp;13</font></td>
+                    </tr>
+                  </table>
+                </div>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber5" width="90%">
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="left"><font face="Arial, Helvetica" size="3">
+                      <span class="sectionh">Task Description</span></font></p>
+                      <p class="fixed" style="text-align: left; margin-left: 0in; margin-right: 0in; margin-top: 0in; margin-bottom: .0001pt">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">Server blades are 
+                      the newest trend in Web Server design. A web site may be 
+                      built on a large number of very compact ‘blade’ servers, 
+                      which omit the expansion slots, floppy and CD-ROM drives 
+                      in order to squeeze the server into a very small package. 
+                      The blades fit into an “Enclosure”, which allows up to 20 
+                      blade servers to share common parts (cooling fans, power 
+                      supplies, etc.). Each blade server consumes less power 
+                      than a traditional web server, but since upwards of 300 
+                      blade servers fit into a single computer rack, power 
+                      consumption is still an important issue! </font></span>
+                      </p>
+                      <p class="MsoNormal" style="text-align: left">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">In addition, blade 
+                      servers include power-saving modes, which allow them to 
+                      reduce their power usage during off-peak hours. This is 
+                      the same technology used in laptop computers to squeeze 
+                      more time out of their batteries. A blade normally 
+                      operates in FULL power mode, providing the most 
+                      performance available. When the server is not busy, it 
+                      will go to LOW power mode, reducing performance but saving 
+                      electricity. If the server is not needed for a while, it 
+                      can go into SLEEP mode, which turns the server off, but 
+                      allows it to ‘wake up’ quickly when needed (servers 
+                      consume a little bit of power while in sleep mode).</font></span></p>
+                      <p class="MsoNormal" style="text-align: left">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">Your task is to 
+                      build a reporting system which, given a one-day log file 
+                      showing changes in power usage, will generate a daily 
+                      power and system uptime report for an enclosure of 20 
+                      blade servers.</font></span></p>
+                      <p class="MsoNormal" style="text-align: left">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">Each blade server 
+                      can be identified by its location within the enclosure 
+                      (each blade server occupies a single “bay”, or slot, in 
+                      the enclosure). These bays are numbered from 1 to 20. A 
+                      blade’s power consumption can be calculated by multiplying 
+                      its power consumption rate by the time spent operating at 
+                      that rate. Power consumption is measured in Watt-hours, 
+                      which we commonly abbreviate as just “Watts”. For example, 
+                      your desk lamp probably has a 60 Watt light bulb (it’s 
+                      really a 60 Watt-hour light bulb). If you run the lamp for 
+                      2 hours, you’ve consumed 120 Watts. You buy power from the 
+                      electric company in units of kilowatt-hours. If power 
+                      costs $0.09 per kilowatt-hour, running that lamp for 2 
+                      hours cost about a penny (.120 kilowatt-hours at $.09 per 
+                      kilowatt-hour equals $.0108). </font></span></p>
+                      <p align="left">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">Since computers 
+                      convert all electrical energy they consume into waste 
+                      heat, we can also calculate how much heat is produced by 
+                      the blades. This information is important to computer room 
+                      designers, as it tells them how big their air conditioning 
+                      equipment needs to be. Heat output is measured in BTU’s 
+                      per hour (again, we usually just say BTU’s). 1 Watt-hour 
+                      of energy converted to heat will generate 3.412 BTU/hr. So 
+                      that desk lamp would have generated 409.44 BTU’s while it 
+                      was on.</font></span></p>
+                      <p align="left"><span class="sectionh">
+                      <font face="Arial, Helvetica" size="3">Program Input</font></span></p>
+                      <p class="MsoBodyText" style="text-autospace: ideograph-numeric ideograph-other">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">The input file 
+                      consists of two header lines, followed by the Power Event 
+                      Log. Commas separate each field in the input file. The 
+                      first header line contains a report date (MM/DD/YYYY), the 
+                      customer’s company name, and the cost of electricity per 
+                      kilowatt-hour (in dollars and cents). The second header 
+                      line describes the power consumption ratings of a single 
+                      blade in its four operating modes: OFF, SLEEP, LOW, and 
+                      FULL.</font></span></p>
+                      <p class="MsoNormal" style="text-align:justify">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">The Power Event Log 
+                      contains a list of each power event, listed on its own 
+                      line. Each event contains three fields, separated by 
+                      commas. The first field is the time of the event, in the 
+                      format HH:MM, in 24-hour time (for example, 12:39am is 
+                      stored as 00:39, while 2:00pm is stored as 14:00). This is 
+                      followed by the blade’s bay number, and lastly by the new 
+                      power state of the blade. For example, the line 
+                      “00:01,1,FULL” means that the blade in bay #1 went to FULL 
+                      power mode at 12:01am.</font></span></p>
+                      <p class="MsoNormal" style="text-align:justify">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">You should continue 
+                      reading Power Event Log entries until you reach the end of 
+                      the file. The Power Event Log could contain hundreds or 
+                      even thousands of entries.</font></span></p>
+                      <p class="MsoBodyText" style="text-autospace: ideograph-numeric ideograph-other">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">The log should be 
+                      interpreted using the following rules:</font></span></p>
+                      <ul>
+                        <li>
+                        <p class="MsoNormal" style="text-align: left; text-indent: -.25in; margin-left: .5in">
+                        <span class="bodystyle">
+                        <font face="Arial, Helvetica" size="2">
+                        <span style="font-weight: 400">The log always starts at 
+                        00:00 (midnight), although no events are guaranteed to 
+                        occur at midnight</span></font></span></li>
+                        <li>
+                        <p class="MsoNormal" style="text-align: left; text-indent: -.25in; margin-left: .5in">
+                        <span class="bodystyle">
+                        <font face="Arial, Helvetica" size="2">
+                        <span style="font-weight: 400">Before the start of the 
+                        log, all server blades are OFF</span></font></span></li>
+                        <li>
+                        <p class="MsoNormal" style="text-align: left; text-indent: -.25in; margin-left: .5in">
+                        <span class="bodystyle">
+                        <font face="Arial, Helvetica" size="2">
+                        <span style="font-weight: 400">Log entries will always 
+                        occur ascending in time (time never goes backwards!)</span></font></span></li>
+                        <li>
+                        <p class="MsoNormal" style="text-align: left; text-indent: -.25in; margin-left: .5in">
+                        <span class="bodystyle">
+                        <font face="Arial, Helvetica" size="2">
+                        <span style="font-weight: 400">Log entries occurring 
+                        within the same minute can be assumed to occur 
+                        simultaneously (at the start of each minute)</span></font></span></li>
+                        <li>
+                        <p class="MsoNormal" style="text-align: left; text-indent: -.25in; margin-left: .5in">
+                        <span class="bodystyle">
+                        <font face="Arial, Helvetica" size="2">
+                        <span style="font-weight: 400">The log ends at 00:00 on 
+                        the next day, and the last event could occur at 23:59 
+                        (11:59pm)</span></font></span></li>
+                      </ul>
+                      <p class="MsoNormal" style="text-align:justify">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">A simple example 
+                      input file is shown below (for a system with 5 blades).</font></span></p>
+                      <blockquote>
+                        <p class="MsoNormal"><span style="font-weight: 400">
+                        <font face="Courier New" size="2">
+                        01/31/2002,WebVan.com,0.08<br>
+                        0.00,2.35,14.90,24.60<br>
+                        00:01,1,FULL<br>
+                        00:01,2,LOW<br>
+                        00:01,3,SLEEP<br>
+                        00:07,4,SLEEP<br>
+                        00:39,5,SLEEP<br>
+                        01:45,1,LOW<br>
+                        04:20,2,SLEEP<br>
+                        |08:55,1,FULL<br>
+                        09:12,2,FULL<br>
+                        09:12,3,FULL<br>
+                        09:12,4,FULL<br>
+                        18:30,5,OFF</font></span></p>
+                      </blockquote>
+                      <p align="left"><span class="sectionh">
+                      <font face="Arial, Helvetica" size="3">Program Output</font></span></p>
+                      <p class="MsoNormal" style="text-align: left">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">The program must 
+                      respond by writing a report to the output file. The report 
+                      header must include a report title, the date of the 
+                      report, and the customer’s name. The main report section 
+                      must list each blade (1-20) on a separate line, with each 
+                      line containing the bay number, the total uptime for the 
+                      blade in that bay (HH:MM), and the total power consumed by 
+                      the blade (in Watts, to two decimal places). Uptime counts 
+                      the number of minutes a blade server is in either the FULL 
+                      or LOW power states. </font></span></p>
+                      <p class="MsoNormal" style="text-align: left">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">At the end of the 
+                      report, four lines must appear that show the following 
+                      information for all 20 blades: The total uptime (HH:MM), 
+                      the total power consumed, heat produced, and cost of the 
+                      electricity used (all to two decimal places).</font></span></p>
+                      <p class="MsoNormal" style="text-align: left">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">Do not round any 
+                      values until ALL of the calculations have been made. The 
+                      following values must fall within the specified error 
+                      ranges: </font></span></p>
+                      <p class="MsoNormal" style="text-align: left">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">Power Consumed (by 
+                      a single blade): +/- .5 Watt <br>
+                      Total Power Consumption: +/- 5 Watts <br>
+                      Total Heat Produced: +/- 5 BTUs <br>
+                      Total Electrical Service Cost: +/- $0.02</font></span></p>
+                      <p class="MsoNormal" style="text-align: left">
+                      <span style="font-weight: 400" class="bodystyle">
+                      <font face="Arial, Helvetica" size="2">See the results 
+                      below for examples.</font></span></p>
+                      <p class="MsoNormal" style="text-align: left">&nbsp;</p>
+                      <blockquote>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Server Blade 
+                        Power Log</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; January 31, 
+                        2002</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enclosure: 
+                        Webvan.com</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">&nbsp;</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">Bay&nbsp;&nbsp;&nbsp; Uptime &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        Power Consumed</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">---&nbsp;&nbsp;&nbsp; ------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        --------------</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23:59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        520.46 Watts</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19:07&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        439.84 Watts</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14:48&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        385.68 Watts</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14:48&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        385.44 Watts</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 00:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        41.98 Watts</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">&nbsp;</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">Total combined uptime: 
+                        72:42</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">Total power 
+                        consumption: 1773.40 Watts</font></span></p>
+                        <p class="fixed" style="margin:0in;margin-bottom:.0001pt" align="left">
+                        <span style="font-weight: 400">
+                        <font face="Courier New" size="2">Total heat produced 
+                        was 6050.84 BTUs</font></span></p>
+                        <p align="left"><span style="font-weight: 400">
+                        <font face="Courier New" size="2">Total electrical 
+                        service cost was $0.14</font></span></p>
+                      </blockquote>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                </td>
+                <td valign="bottom">
+                <p align="center">&nbsp;</td>
+              </tr>
+            </table>
+          </div>
+        </blockquote>
+        </td>
+        <td align="right" bgcolor="#000000" valign="top">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber4">
+            <tr>
+              <td width="100%" align="center">
+              <img border="0" src="/images/logo.gif" alt="hp Code Wars" align="right"></td>
+            </tr>
+            <tr>
+              <td width="100%">
+              <img border="0" src="/images/hplogo.gif" alt="Hello -- Dominos?..."></td>
+            </tr>
+          </table>
+        </div>
+        <div align="center">
+          <center>
+          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="80%" id="AutoNumber1">
+            <tr>
+              <td width="100%" height="3">
+              <font size="2" face="Arial, Helvetica">&nbsp;</font></td>
+            </tr>
+            <tr>
+              <td width="100%" height="16">
+              <p align="left"><span style="font-weight: 400">
+              <a href="../index.htm"><font face="Arial, Helvetica" size="2">back 
+              to code wars V</font></a></span></td>
+            </tr>
+            <tr>
+              <td width="100%" height="3">
+              <font size="2" face="Arial, Helvetica">&nbsp;</font></td>
+            </tr>
+            <tr>
+              <td width="100%" height="16">
+              <p align="left"><span style="font-weight: 400">
+              <font face="Arial, Helvetica" size="2">
+              <a href="../../../index.htm">home</a></font></span></td>
+            </tr>
+            <tr>
+              <td width="100%" height="3"></td>
+            </tr>
+            <tr>
+              <td>
+              <p align="left">
+              <font face="Arial, Helvetica" size="2" color="#FFFFFF">
+              <span style="font-weight: 400">
+              <a href="../../../About/WhatIs.htm">what IS code wars? </a></span>
+              </font></td>
+            </tr>
+            <tr>
+              <td width="100%" height="3"></td>
+            </tr>
+            <tr>
+              <td width="100%" height="16">
+              <p align="left"><span style="font-weight: 400">
+              <font face="Arial, Helvetica" size="2" color="#FFFFFF">
+              <a href="../../../Rules.htm">rules</a></font></span></td>
+            </tr>
+            <tr>
+              <td width="100%" height="3"></td>
+            </tr>
+            <tr>
+              <td width="100%" height="16">
+              <p align="left"><span style="font-weight: 400">
+              <font face="Arial, Helvetica" size="2" color="#FFFFFF">
+              <a href="../../../Sample%20Problems/index.htm">sample problems</a></font></span></td>
+            </tr>
+            <tr>
+              <td width="100%" height="3"></td>
+            </tr>
+            <tr>
+              <td width="100%" height="16">
+              <p align="left"><span style="font-weight: 400">
+              <font face="Arial, Helvetica" size="2" color="#FFFFFF">
+              <a href="../../../Schedule/index.htm">schedule</a></font></span></td>
+            </tr>
+            <tr>
+              <td width="100%" height="3"></td>
+            </tr>
+            <tr>
+              <td width="100%" height="16">
+              <p align="left"><span style="font-weight: 400">
+              <font face="Arial, Helvetica" size="2"><a href="../../index.htm">
+              past events</a></font></span></td>
+            </tr>
+            <tr>
+              <td width="100%" height="3"></td>
+            </tr>
+            <tr>
+              <td width="100%" height="16">
+              <p align="left"><span style="font-weight: 400">
+              <font face="Arial, Helvetica" size="2" color="#FFFFFF">
+              <a href="../../../Register/index.htm">register</a></font></span></td>
+            </tr>
+            <tr>
+              <td width="100%" height="3"></td>
+            </tr>
+            <tr>
+              <td width="100%" height="16">
+              <p align="left"><span style="font-weight: 400">
+              <font face="Arial, Helvetica" size="2" color="#FFFFFF">
+              <a href="../../../ContactUs/index.htm">contact us</a></font></span></td>
+            </tr>
+            <tr>
+              <td width="100%" height="3"></td>
+            </tr>
+            <tr>
+              <td width="100%" height="16">
+              <p align="left"><span style="font-weight: 400">
+              <font face="Arial, Helvetica" size="2" color="#FFFFFF">
+              <a href="../../../Sponsors/index.htm">sponsors</a></font></span></td>
+            </tr>
+            <tr>
+              <td width="100%" height="3"></td>
+            </tr>
+          </table>
+          </center>
+        </div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="bottom" align="right">&nbsp;</td>
+        <td valign="bottom" align="right" bgcolor="#000000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="right" valign="bottom">&nbsp;</td>
+        <td valign="top" align="right" bgcolor="#000000">
+        <font face="Tahoma, Arial, Helvetica" size="1" color="#808080">
+        <span style="font-weight: 400">(c) 2004 Hewlett-Packard Company<br>
+        </span></font><font color="#808080">&nbsp;</font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

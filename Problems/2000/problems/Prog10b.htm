@@ -1,0 +1,128 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <meta name="Author" content="leej">
+   <title>Code Wars III - Program 10: Undo Arithmetic</title>
+<link REL=STYLESHEET TYPE="text/css" HREF="cw3templ.css">
+</head>
+<body>
+&nbsp;
+<center><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="550" >
+<tr>
+<td>
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableDocTitle" >
+<tr VALIGN=BASELINE class="RowAlignBase">
+<td><span class="TextDocTitle">CODE WARS ]I[</span></td>
+
+<td><span class="TextSubTitle">PROGRAMMING COMPETITION</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbTitle" >
+<tr class="RowAlignBase">
+<td><span class="TextProbTitle">Undo Arithmetic</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbInfo" >
+<tr class="RowAlignBase">
+<td><span class="TextProbInfo">Problem 10</span></td>
+
+<td><span class="TextProbInfo">Division I / II</span></td>
+
+<td><span class="TextProbInfo">11 Points</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Problem Statement</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">Many commercial programs offer an "undo"
+feature that allows a user to revert back to a state prior to an operation.
+Write a simple arithmetic calculator with undo capabilities.</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Program Input</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">Each line of the input file PROG10.IN
+follows one of these formats:
+<br><i>&nbsp;&nbsp; number</i>
+<br><i>&nbsp;&nbsp; operator number</i>
+<br>&nbsp;&nbsp; UNDO
+<br>The valid operators are +, -, *, and /. The number will be in %f format
+(no scientific notation). Operators will be separated from numbers by one
+or more spaces. The program should allow at least 16 levels of UNDO.</span><!-- file / code example -->
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr VALIGN=TOP>
+<td><span class="TextConsole"><tt>&nbsp; 7.24</tt>
+<br><tt>&nbsp; * 94.18</tt>
+<br><tt>&nbsp; + 13.6</tt>
+<br><tt>&nbsp; / -28.935</tt>
+<br><tt>&nbsp; + 0.0122</tt>
+<br><tt>&nbsp; UNDO</tt>
+<br><tt>&nbsp; UNDO</tt>
+<br><tt>&nbsp; / -29.835</tt></span></td>
+
+<td><span class="TextConsole"><tt>&nbsp; + 0.0122</tt>
+<br><tt>&nbsp; UNDO</tt>
+<br><tt>&nbsp; + 0.0112</tt>
+<br><tt>&nbsp; 12.7</tt>
+<br><tt>&nbsp; + 3.1</tt>
+<br><tt>&nbsp; UNDO</tt>
+<br><tt>&nbsp; UNDO</tt></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Program Output</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">The program should write the input line
+to the output file PROG10.OUT along with the current value in the calculator,
+as shown below:</span>
+<br><!-- file / code example --><span class="TextConsole">7.24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.24
+<br>* 94.18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 681.8632
+<br>+ 13.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 695.4632
+<br>/ -28.935&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -24.03536201832
+<br>+ 0.0122&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -24.02316201832
+<br>UNDO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-24.03536201832
+<br>UNDO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+695.4632
+<br>/ -29.835&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -23.31031339031
+<br>+ 0.0122&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -23.29811339031
+<br>UNDO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-23.31031339031
+<br>+ 0.0112&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -23.29911339031
+<br>12.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+12.7
+<br>+ 3.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+15.8
+<br>UNDO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+12.7
+<br>UNDO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-23.29911339031</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+
+</body>
+</html>

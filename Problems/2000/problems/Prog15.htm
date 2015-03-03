@@ -1,0 +1,117 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <meta name="Author" content="leej">
+   <title>Code Wars III - Problem 15: Travelling Chess Salesman</title>
+<link REL=STYLESHEET TYPE="text/css" HREF="cw3templ.css">
+</head>
+<body>
+&nbsp;
+<center><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="550" >
+<tr>
+<td>
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableDocTitle" >
+<tr VALIGN=BASELINE class="RowAlignBase">
+<td><span class="TextDocTitle">CODE WARS ]I[</span></td>
+
+<td><span class="TextSubTitle">PROGRAMMING COMPETITION</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbTitle" >
+<tr class="RowAlignBase">
+<td><span class="TextProbTitle">Traveling Chess Salesman</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbInfo" >
+<tr class="RowAlignBase">
+<td><span class="TextProbInfo">Problem 15</span></td>
+
+<td><span class="TextProbInfo">Division I</span></td>
+
+<td><span class="TextProbInfo">19 Points</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Problem Statement</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">A wee time ago, there once lived a Scottish
+chess salesman who used to offer a free chess set to any potential customer
+who could move the Knight piece around the board in the minimum number
+of moves and land on every square. There were three simple rules. One,
+the Knight had to start in the Queen's Knight position. Two, no other pieces
+were on the board. And three, each square could be landed on multiple times,
+but each move had to count. Of course, the customer would have to agree
+to buy a chess set if they could not match the salesman's best effort of
+63 moves. Legend has it that this chess salesman used to chant the following
+Lyric before the challenge began:
+<table ALIGN=RIGHT BORDER=0 CELLSPACING=12 CELLPADDING=0 WIDTH="104" >
+<tr>
+<td>
+<center><img SRC="kmoves.gif" HSPACE=4 VSPACE=2 height=100 width=100><span class="small">
+Knight <b>K</b> can move to any space denoted by an <b>X</b></span></center>
+</td>
+</tr>
+</table>
+<span class="verse">
+<p>&nbsp;&nbsp; In days of old when Knights were bold,
+<br>&nbsp;&nbsp; And the game was invented,
+<br>&nbsp;&nbsp; The Knight was alone when he went off to course,
+<br>&nbsp;&nbsp; And had to be contented.
+<p>&nbsp;&nbsp; Without any clues, in how little moves,
+<br>&nbsp;&nbsp; Could a Knight cover her Lord's green?
+<br>&nbsp;&nbsp; You've got to make her cover every acre,
+<br>&nbsp;&nbsp; And be certain of where's She's been.</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Program Input</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">The program should model an 8x8 chessboard
+and a single Knight starting in the top row. The Knight may move horizontally
+two spaces and vertically one space, or vertically two spaces and horizontally
+one space, as shown in the diagram above. PROG15.IN contains
+a single number (1-8) indicating the column of the Knight's starting
+position.</span><!-- file / code example --><span class="TextConsole">
+<br>7</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Program Output</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">The program must write to PROG15.OUT
+an 8x8 matrix of numbers 1-64 indicating the jumps the Knight makes to
+cover the entire chessboard. The numbers indicate the Knight's jump (or
+move) sequence along the path, and they must line up in 8 rows and 8 columns.
+The example shows the first 13 moves for one possible solution:</span><!-- file / code example --><span class="TextConsole">
+<br><tt>09 -- 03 -- 07 -- 01 --</tt>
+<br><tt>04 -- 08 -- 02 -- -- --</tt>
+<br><tt>-- 10 -- 06 -- 12 -- --</tt>
+<br><tt>-- 05 -- 11 -- -- -- 13</tt>
+<br><tt>-- -- -- -- -- -- -- --</tt>
+<br><tt>-- -- -- -- -- -- -- --</tt>
+<br><tt>-- -- -- -- -- -- -- --</tt>
+<br><tt>-- -- -- -- -- -- -- --</tt></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+
+</body>
+</html>

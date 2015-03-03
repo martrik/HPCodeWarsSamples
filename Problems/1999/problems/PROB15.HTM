@@ -1,0 +1,69 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="leej">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <title>Matrix Amazement</title>
+</head>
+<body>
+
+<center><b><font face="Arial,Helvetica">Problem #15</font></b>
+<p><b><i><u><font face="Arial,Helvetica"><font size=+4>Code Wars II</font></font></u></i></b>
+<br><b><font face="Arial,Helvetica"><font size=+2>Danger Level: Black</font></font></b></center>
+
+<p><br>
+<p><font size=+2><font face="Wingdings">}</font><b><font face="Arial,Helvetica">Matrix
+Amazement</font></b><font face="Wingdings">~</font></font>
+<p><b><font face="Arial,Helvetica">Point Value: 13</font></b>
+<p><b><font face="Arial,Helvetica">Problem Statement</font></b>
+<p><font face="Times New Roman,Times">Political prisoner Bobby "Byte" Bouchet
+has been captured in a hostile military zone and confined to a cell four
+feet on each side.&nbsp; You work for a foreign intelligence service assigned
+to free Bouchet.&nbsp; The operative needs to override the access rights
+of the security doors, and your task is to write the decoder.</font>
+<p><font face="Times New Roman,Times">Each door has a local security controller
+with a 4x4 matrix of byte control codes that are changed on a daily basis.&nbsp;
+The matrix override sequence is a "path" of values through the matrix which
+conforms to the following rules:</font>
+<ol>
+<li>
+<font face="Times New Roman,Times">the sequence begins at position 0,0</font></li>
+
+<li>
+<font face="Times New Roman,Times">the sequence ends at position 3,3</font></li>
+
+<li>
+<font face="Times New Roman,Times">as the sequence progresses, each number
+in the sequence is directly adjacent (up, left, down, or right) to the
+previous number (no diagonal connections)</font></li>
+
+<li>
+<font face="Times New Roman,Times">the path cannot contain loops, and</font></li>
+
+<li>
+<font face="Times New Roman,Times">the value at position 3,3 is the sum
+of all the previous numbers in the sequence.</font></li>
+</ol>
+<b><font face="Arial,Helvetica">Program Input</font></b>
+<p><font face="Times New Roman,Times">Each security door is described in
+the input file PROB15.IN by a series of five lines.&nbsp; The first line
+in each descriptor is an identifier, and the next four lines are each a
+sequence of four numbers, with each line representing a matrix row and
+each number in column sequence.&nbsp; There may be several doors in the
+file.&nbsp; For example:</font>
+<p><font face="Courier New,Courier">DOOR NUMBER 1</font>
+<br><font face="Courier New,Courier">&nbsp;12&nbsp; 26&nbsp;&nbsp; 7&nbsp;
+31</font>
+<br><font face="Courier New,Courier">101&nbsp;&nbsp; 8&nbsp; 61&nbsp; 44</font>
+<br><font face="Courier New,Courier">&nbsp;18&nbsp; 82&nbsp; 13 119</font>
+<br><font face="Courier New,Courier">&nbsp;83&nbsp;&nbsp; 3&nbsp; 47 251</font>
+<p><b><font face="Arial,Helvetica">Program Output</font></b>
+<p><font face="Times New Roman,Times">For each security door the program
+should print, on one line, the identifier and the command override sequence.&nbsp;
+For example:</font>
+<p><font face="Courier New,Courier">DOOR NUMBER 1: 12 26 7 61 13 82 3 47
+251</font>
+<br>&nbsp;
+</body>
+</html>

@@ -1,0 +1,571 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="leej">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <title>Musical Transposition</title>
+</head>
+<body>
+
+<center><b><font face="Arial,Helvetica">Problem #18</font></b>
+<p><b><i><u><font face="Arial,Helvetica"><font size=+4>Code Wars II</font></font></u></i></b>
+<br><b><font size=+2><font face="Arial,Helvetica">Danger Level: Double
+Black </font><font face="Wingdings">uu</font></font></b></center>
+
+<p><br>
+<br>
+<br>
+<p><font size=+2><font face="Wingdings">}</font><b><font face="Arial,Helvetica">Musical
+Transposition</font></b><font face="Wingdings">~</font></font>
+<p><b><font face="Arial,Helvetica">Point Value: 16</font></b>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Problem Statement</font></b>
+<p><font face="Times New Roman,Times">Some musical instruments, such as
+the flute and the clarinet, require written music to be transposed for
+that instrument's tuning.&nbsp; For instance, music for a B<sup>b</sup>
+clarinet is written 2 half steps above the actual notes.&nbsp; Write a
+program to transpose music according to the rules in the appendix.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Program Input</font></b>
+<p><font face="Times New Roman,Times">The input file PROB18.IN begins with
+a line indicating the tuning of the target instrument.&nbsp; For this problem
+you may assume the only instrument tunings will be B<sup>b</sup>, D and
+E<sup>b</sup>.&nbsp; The next line specifies the key signature of the source
+music.&nbsp; The notes from the source music begin on the next line separated
+by white space.&nbsp; The program may assume that no line will be longer
+than 80 characters, and that the source music is written for an instrument
+tuned to C.</font>
+<p><font face="Courier New,Courier"><font size=-1>TARGET: Bb CLARINET</font></font>
+<br><font face="Courier New,Courier"><font size=-1>KEY SIGNATURE: F</font></font>
+<br><font face="Courier New,Courier"><font size=-1>A5 B5 C5 D5 E5 A6 G#5
+E5 B5 D5</font></font>
+<br><font face="Courier New,Courier"><font size=-1>C#5 A5 G5 F#5 E5 F#5
+D5</font></font>
+<br><font face="Courier New,Courier"><font size=-1>F5 E5 D5 C5 Bb5 A5 G4
+F4 E4</font></font>
+<br><font face="Courier New,Courier"><font size=-1>F4 A6 E4 G5 D4 G5 F5
+E5 D5 C5 Bb5 A5</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Program Output</font></b>
+<p><font face="Times New Roman,Times">The program should write the transposed
+music to the output file PROB18.OUT.&nbsp; The first line should be identical
+to the first line of the input file, except the program should change the
+key word TARGET to INSTRUMENT.&nbsp; The second line should indicate the
+transposed key signature, and the notes should follow thereafter.&nbsp;
+The program should maintain the same line breaks between notes as in the
+input file.</font>
+<p><font face="Courier New,Courier"><font size=-1>INSTRUMENT: Bb CLARINET</font></font>
+<br><font face="Courier New,Courier"><font size=-1>KEY SIGNATURE: G</font></font>
+<br><font face="Courier New,Courier"><font size=-1>B5 C#5 D5 E5 F#5 B6
+A#6 F#5 C#5 E5</font></font>
+<br><font face="Courier New,Courier"><font size=-1>D#5 B5 A6 G#5 F#5 G#5
+E5</font></font>
+<br><font face="Courier New,Courier"><font size=-1>G5 F#5 E5 D5 C5 B5 A5
+G4 F#4</font></font>
+<br><font face="Courier New,Courier"><font size=-1>G#4 B6 F#4 A6 E4 A5
+G5 F#5 E5 D5 C5 B5</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Appendix A: Basic Music Theory</font></b>
+<p><font face="Times New Roman,Times">Tranditional western music, like
+math, has a sophisticated written symbolic language and vocabulary.&nbsp;
+We will present a small subset here for use in solving this problem.&nbsp;
+The solution to this problem is quite simple once you understand what is
+being asked.</font>
+<p><font face="Times New Roman,Times">There are seven basic named notes:
+A, B, C, D, E, F, and G, which occur in a rotating sequence called an <b><i>octave</i></b>.&nbsp;
+In written music, the octave of a particular note is indicated by its position
+on the staff.&nbsp; In our shorthand notation we'll write a number after
+each note to indicate its octave, such as E4 or C5.&nbsp; The octave number
+is incremented each time the cycle restarts at A, so the sequence looks
+like this: A1, B1, C1, D1, E1, F1, G1, A2, B2, C2, D2, etc.</font>
+<p><font face="Times New Roman,Times">There are 12 <b><i>half-step</i></b>
+intervals in each octave.&nbsp; The half-steps are shown in figure 1.&nbsp;
+A <b><i>whole-step</i></b> interval is two half-steps, i.e., A to B or
+D to E.&nbsp; The notes in between the basic named notes are called <b><i>sharp</i></b>
+(<sup>#</sup>) or <b><i>flat</i></b> (<sup>b</sup>).&nbsp; The general
+term for sharps and flats is <b><i>accidental</i></b>.&nbsp; When one of
+the basic notes appears without an accidental, it is called a <b><i>natural</i></b>.
+(The symbol for a natural isn't included in most standard fonts, so we
+won't show it here.&nbsp; This symbol is rarely drawn, so for this problem
+we'll assume any note without a <sup>#</sup> or <sup>b</sup> is a natural.)&nbsp;
+Notice that there is no half-step inteval between B and C, nor between
+E and F.&nbsp;&nbsp; In our notation we will write the accidental before
+the octave number, i.e., G<sup>#</sup>6 means "the G sharp in octave six".</font>
+<br>&nbsp;
+<center><table COLS=2 WIDTH="100%" >
+<tr VALIGN=TOP>
+<td>
+<center><table BORDER CELLSPACING=0 >
+<tr BGCOLOR="#000000">
+<td><b><font color="#FFFFFF">1/2 steps</font></b></td>
+
+<td><b><font color="#FFFFFF">sharps</font></b></td>
+
+<td><b><font color="#FFFFFF">flats</font></b></td>
+</tr>
+
+<tr>
+<td>
+<center>0</center>
+</td>
+
+<td>
+<center>A</center>
+</td>
+
+<td>
+<center>A</center>
+</td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td>
+<center>1</center>
+</td>
+
+<td>
+<center>A<sup>#</sup></center>
+</td>
+
+<td>
+<center>B<sup>b</sup></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center>2</center>
+</td>
+
+<td>
+<center>B</center>
+</td>
+
+<td>
+<center>B</center>
+</td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td>
+<center>3</center>
+</td>
+
+<td>
+<center>C</center>
+</td>
+
+<td>
+<center>C</center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center>4</center>
+</td>
+
+<td>
+<center>C<sup>#</sup></center>
+</td>
+
+<td>
+<center>D<sup>b</sup></center>
+</td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td>
+<center>5</center>
+</td>
+
+<td>
+<center>D</center>
+</td>
+
+<td>
+<center>D</center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center>6</center>
+</td>
+
+<td>
+<center>D<sup>#</sup></center>
+</td>
+
+<td>
+<center>E<sup>b</sup></center>
+</td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td>
+<center>7</center>
+</td>
+
+<td>
+<center>E</center>
+</td>
+
+<td>
+<center>E</center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center>8</center>
+</td>
+
+<td>
+<center>F</center>
+</td>
+
+<td>
+<center>F</center>
+</td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td>
+<center>9</center>
+</td>
+
+<td>
+<center>F<sup>#</sup></center>
+</td>
+
+<td>
+<center>G<sup>b</sup></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center>10</center>
+</td>
+
+<td>
+<center>G</center>
+</td>
+
+<td>
+<center>G</center>
+</td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td>
+<center>11</center>
+</td>
+
+<td>
+<center>G<sup>#</sup></center>
+</td>
+
+<td>
+<center>A<sup>b</sup></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center>12</center>
+</td>
+
+<td>
+<center>A</center>
+</td>
+
+<td>
+<center>A</center>
+</td>
+</tr>
+
+<caption ALIGN=BOTTOM><b>figure 1</b></caption>
+</table></center>
+</td>
+
+<td>
+<center><table BORDER CELLSPACING=0 CELLPADDING=3 >
+<tr BGCOLOR="#000000">
+<td><b><font color="#FFFFFF">Key</font></b></td>
+
+<td></td>
+
+<td COLSPAN="7"><b><font color="#FFFFFF">Notes in the key (scale)</font></b></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td>B<sup>b</sup></td>
+
+<td></td>
+
+<td>B<sup>b</sup></td>
+
+<td>C</td>
+
+<td>D</td>
+
+<td>E<sup>b</sup></td>
+
+<td>F</td>
+
+<td>G</td>
+
+<td>A</td>
+</tr>
+
+<tr VALIGN=BOTTOM BGCOLOR="#C0C0C0">
+<td>C</td>
+
+<td></td>
+
+<td>C</td>
+
+<td>D</td>
+
+<td>E</td>
+
+<td>F</td>
+
+<td>G</td>
+
+<td>A</td>
+
+<td>B</td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td>D</td>
+
+<td></td>
+
+<td>D</td>
+
+<td>E</td>
+
+<td>F<sup>#</sup></td>
+
+<td>G</td>
+
+<td>A</td>
+
+<td>B</td>
+
+<td>C<sup>#</sup></td>
+</tr>
+
+<tr VALIGN=BOTTOM BGCOLOR="#C0C0C0">
+<td>E<sup>b</sup></td>
+
+<td></td>
+
+<td>E<sup>b</sup></td>
+
+<td>F</td>
+
+<td>G</td>
+
+<td>A<sup>b</sup></td>
+
+<td>B<sup>b</sup></td>
+
+<td>C</td>
+
+<td>D</td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td>F</td>
+
+<td></td>
+
+<td>F</td>
+
+<td>G</td>
+
+<td>A</td>
+
+<td>B<sup>b</sup></td>
+
+<td>C</td>
+
+<td>D</td>
+
+<td>E</td>
+</tr>
+
+<tr VALIGN=BOTTOM BGCOLOR="#C0C0C0">
+<td>G</td>
+
+<td></td>
+
+<td>G</td>
+
+<td>A</td>
+
+<td>B</td>
+
+<td>C</td>
+
+<td>D</td>
+
+<td>E</td>
+
+<td>F<sup>#</sup></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td>A</td>
+
+<td></td>
+
+<td>A</td>
+
+<td>B<font color="#FFFFFF">..</font></td>
+
+<td>C<sup>#</sup></td>
+
+<td>D</td>
+
+<td>E</td>
+
+<td>F<sup>#</sup></td>
+
+<td>G<sup>#</sup></td>
+</tr>
+
+<caption ALIGN=BOTTOM><b>figure 2</b></caption>
+</table></center>
+</td>
+</tr>
+</table></center>
+
+<p><font face="Times New Roman,Times">Traditional western music is written
+around a certain <b><i>key</i></b>, which is a grouping of seven of the
+twelve notes.&nbsp; The ordered sequence of these notes is called a <b><i>scale</i></b>.&nbsp;
+The keys which we will use for this problem are shown in figure 2.&nbsp;
+Sometimes the intermediate notes (between the basic named notes) are sometimes
+referenced by the <sup>#</sup>, sometimes by the <sup>b</sup>, depending
+on the key signature.&nbsp; This means that although G<sup>#</sup> may
+be the same frequency (or <b><i>pitch</i></b>) as A<sup>b</sup>, one notation
+will be preferred over the other in certain circumstances.&nbsp; Using
+these notes by way of example, if the key signature is A, the note should
+be written as G<sup>#</sup>, but if the key signature is E<sup>b</sup>,
+that same note should be written as A<sup>b</sup>.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Appendix B: Transposition</font></b>
+<p><font face="Times New Roman,Times"><b>trans•pose</b> - to alter a sequence
+of musical notes by a fixed interval.</font>
+<p><font face="Times New Roman,Times">As indicated in the problem statement,
+some musical instruments require written music to be transposed for that
+instrument's tuning.&nbsp; The instruments are often named by their tuning.&nbsp;
+For instance, a B<sup>b</sup> clarinet produces a B<sup>b</sup> pitch when
+fingered for a C.&nbsp; An E<sup>b</sup> clarinet, as you might guess,
+produces an E<sup>b</sup> pitch when fingered for a C.&nbsp; The music
+for these instruments must therefore be transposed appropriately.&nbsp;
+In the case of the B<sup>b</sup> clarinet, each note must be raised by
+two half steps, B<sup>b</sup> to C, D to E, etc.&nbsp; When music is transposed
+this way the key signature is also typically transposed.&nbsp; For the
+B<sup>b</sup> clarinet the key of F would transpose up a whole step to
+the key of G.&nbsp; Music for the D clarinet must be transposed down a
+whole step, i.e., from the key of A to the key of G.&nbsp; An E<sup>b</sup>
+clarinet requires music to be transposed down three half-steps, such as
+from the key of F to the key of D.</font>
+<p><font face="Times New Roman,Times">The transposed notes should be written
+in such a way as to conform to the transposed key signature.&nbsp; For
+all the notes that are in the key this is a simple mapping, but for notes
+with accidentals outside the key it becomes trickier.&nbsp; The rule is
+to transpose a note from its position (or interval) in the original key
+to the corresponding interval in the transposed key.&nbsp; Let's stick
+with the Bb clarinet and examine some of the possibilities:</font>
+<br>&nbsp;
+<center><table BORDER CELLSPACING=0 >
+<tr BGCOLOR="#000000">
+<td COLSPAN="2">
+<center><b><font color="#FFFFFF">oringinal</font></b>
+<br><b><font color="#FFFFFF">key&nbsp;&nbsp; note</font></b></center>
+</td>
+
+<td COLSPAN="2">
+<center><b><font face="Times New Roman,Times"><font color="#FFFFFF">transposed</font></font></b>
+<br><b><font face="Times New Roman,Times"><font color="#FFFFFF">key&nbsp;&nbsp;&nbsp;
+note</font></font></b></center>
+</td>
+
+<td ALIGN=LEFT VALIGN=BOTTOM><b><font color="#FFFFFF">comments</font></b></td>
+</tr>
+
+<tr>
+<td>B<sup>b</sup></td>
+
+<td>G<sup>b</sup></td>
+
+<td>C</td>
+
+<td>A<sup>b</sup></td>
+
+<td>The key of C has no accidentals, so the transposed note retains the
+accidental of the original note.</td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td>G</td>
+
+<td>D<sup>#</sup></td>
+
+<td>A</td>
+
+<td>E<sup>#</sup></td>
+
+<td>The keys of G and A both have sharps, so D<sup>#</sup> (the 5th note
+in the scale) is transposed to E<sup>#</sup> (also the 5th in the scale).&nbsp;
+F is not used even though is is the same pitch as E<sup>#</sup> and may
+appear simpler.</td>
+</tr>
+
+<tr>
+<td>E<sup>b</sup></td>
+
+<td>B</td>
+
+<td>F</td>
+
+<td>C<sup>#</sup></td>
+
+<td>Since a B natural is a <i>half step above </i>the 5th note in the scale,
+we transpose to 1/2 step above the 5th note in F (the transposed key),
+to a C<sup>#</sup>.</td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td>F</td>
+
+<td>E<sup>b</sup></td>
+
+<td>G</td>
+
+<td>F</td>
+
+<td>The E<sup>b</sup> is a half step below the 7th note in the scale, so
+we transpose to 1/2 step below the 7th note in G (the transposed key),
+to an F.</td>
+</tr>
+</table></center>
+
+<p>The program may assume that the note data will not contain double-sharps
+or double-flats, either in the original or transposed data.&nbsp; These
+rare cases do sometimes occur in written music.
+<br>&nbsp;
+</body>
+</html>

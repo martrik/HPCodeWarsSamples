@@ -1,0 +1,114 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="leej">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <title>Code Wars III - Program 9: Simple English Grammer</title>
+<link REL=STYLESHEET TYPE="text/css" HREF="cw3templ.css">
+<style type="text/css">
+<!--
+-->
+   </style>
+</head>
+<body>
+&nbsp;
+<center><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="550" >
+<tr>
+<td>
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableDocTitle" >
+<tr VALIGN=BASELINE class="RowAlignBase">
+<td><span class="TextDocTitle">CODE WARS ]I[</span></td>
+
+<td><span class="TextSubTitle">PROGRAMMING COMPETITION</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbTitle" >
+<tr class="RowAlignBase">
+<td><span class="TextProbTitle">Simple English Grammar</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbInfo" >
+<tr class="RowAlignBase">
+<td><span class="TextProbInfo">Problem 9</span></td>
+
+<td><span class="TextProbInfo">Division I / II</span></td>
+
+<td><span class="TextProbInfo">10 Points</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Problem Statement</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">Many computer programs need to read and
+understand complex data stored or presented in a grammar. For instance,
+compilers parse through program source code, and some programs even have
+a limited natural language interface.
+<br>&nbsp;&nbsp;&nbsp;&nbsp; For this problem you will write a program
+to read a sequence of English words and indicate if they fit the following
+simple grammar model. (The square brackets indicate optional elements.)
+<center>
+<p>[article] [adjective] noun [adverb] verb [[article] [adjective] noun]</center>
+</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Program Input</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">Your program must read two files. The
+first, ELEMENTS.TXT, contains a list of valid parts of speech: adjectives,
+adverbs, articles, nouns, and verbs, in that order. The file is divided
+into sections headed by the part of speech enclosed in square brackets.
+The program should allow up to 100 words for each section. If more than
+one form of a word is needed, each will be listed separately, such as:
+play, plays, and played.</span>
+<br><!-- file / code example --><span class="TextConsole">[ADJECTIVES]
+<br>fast
+<br>red
+<br>heavy
+<br>[ADVERBS]
+<br>slowly
+<br>...</span>
+<br><span class="TextSectionBody">&nbsp;&nbsp;&nbsp;&nbsp; Secondly, each
+line of the file PROG09.IN contains a word sequence separated by one or
+more spaces with no punctuation. The file will not contain blank lines.</span>
+<br><!-- file / code example --><span class="TextConsole">the contest quickly
+progresses
+<br>choosey artists choose gif
+<br>this sequence no verb</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Program Output</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">For each line in the input file the program
+should analyze the word sequence according to the grammar pattern given
+above. All word compares should be case INSENSITIVE (so 'play' matches
+'PLAY'). If the word sequence matches the pattern, the program should write
+the word 'valid' to the output file PROG09.OUT. If not, it should write
+'INVALID'. The program must write one line for each line in the input file.</span>
+<br><!-- file / code example --><span class="TextConsole">valid
+<br>valid
+<br>INVALID</span></td>
+</tr>
+</table>
+<span class="TextSmallPrint"></span></td>
+</tr>
+</table></center>
+
+</body>
+</html>

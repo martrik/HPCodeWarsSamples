@@ -1,0 +1,140 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="leej">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <title>McFood</title>
+</head>
+<body>
+
+<center><b><font face="Arial,Helvetica">Problem #16</font></b>
+<p><b><i><u><font face="Arial,Helvetica"><font size=+4>Code Wars II</font></font></u></i></b>
+<br><b><font face="Arial,Helvetica"><font size=+2>Danger Level: Black</font></font></b></center>
+
+<p><br>
+<br>
+<p><font size=+2><font face="Wingdings">}</font><b><font face="Arial,Helvetica">McFood
+Lines</font></b><font face="Wingdings">~</font></font>
+<p><b><font face="Arial,Helvetica">Point Value: 14</font></b>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Problem Statement</font></b>
+<p><font face="Times New Roman,Times">Did somebody say McFood?&nbsp; This
+problem is all about <i>your</i> McFood!</font>
+<p><font face="Times New Roman,Times">It seems the bigwigs at McFood want
+to study how people respond to long lines in their restaurants, and you're
+going to help them by writing a program to simulate people getting in line
+and ordering McFood.&nbsp; No cutting in line, now...</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Program Input</font></b>
+<p><font face="Times New Roman,Times">There are two input files associated
+with this problem.&nbsp; The first file, MCFOOD.DAT, is a data file listing
+all the McFood items available to order.&nbsp; Each item is listed by name
+along with the average amount of time required to retrieve that McFood
+item in seconds..&nbsp; Here are some example lines from that file:</font>
+<p><font face="Courier New,Courier">ITEM=Double Pounder;TIME=45</font>
+<br><font face="Courier New,Courier">ITEM=Soda;TIME=20</font>
+<br><font face="Courier New,Courier">ITEM=McChitterlings;TIME=71</font>
+<br><font face="Courier New,Courier">ITEM=McPasta;TIME=53</font>
+<br><font face="Courier New,Courier">ITEM=Big Mic;TIME=35</font>
+<br><font face="Courier New,Courier">ITEM=French Fries;TIME=28</font>
+<br><font face="Courier New,Courier">ITEM=Salad;TIME=17</font>
+<br><font face="Courier New,Courier">ITEM=Nuglets;TIME=24</font>
+<br><font face="Courier New,Courier">ITEM=Tea;TIME=20</font>
+<br><font face="Courier New,Courier">ITEM=McPeanut Butter Sandwich;TIME=39</font>
+<p><font face="Times New Roman,Times">The second input file specifies (1)
+the number of lines to simulate, (2) the people who enter the restaurant
+(<i>patrons</i>), (3) the time at which each patron enters, and (4) what
+McFood each patron orders.</font>
+<p><font face="Times New Roman,Times">The exact format is as follows:&nbsp;
+The first line indicates the number of lines to simulate in the restaurant.&nbsp;
+This number may vary between 1 and 10, inclusive.&nbsp; The remaining file
+is separated into time segments divided by lines with the text TIME=N.&nbsp;
+After an individual TIME=N line, each patron is listed who is to enter
+the restaurant at that time.&nbsp; One or more people may be specified
+for this time.&nbsp; Thereafter the file may contain another TIME=N line,
+followed by more patrons, indefinitely.&nbsp; the value of N in the line
+TIME=N is measured in tens of seconds; that is, TIME=2 means "at the time
+20 seconds after the beginning of the simulation."&nbsp; The simulation
+begins at TIME=0 (zero).</font>
+<p><font face="Times New Roman,Times">Each patron record is started with
+a NAME=qqq line, where qqq is the patron's name.&nbsp; This is followed
+by on or more lines of ITEM=xxx;COUNT=c, indicating an item the patron
+wishes to order, followed by the number of those items.&nbsp; Here's an
+example input file:</font>
+<p><font face="Courier New,Courier">LINES: 3</font>
+<br><font face="Courier New,Courier">TIME=0</font>
+<br><font face="Courier New,Courier">NAME=Bill</font>
+<br><font face="Courier New,Courier">ITEM=Double Pounder;COUNT=1</font>
+<br><font face="Courier New,Courier">ITEM=Big Mic;COUNT=2</font>
+<br><font face="Courier New,Courier">ITEM=French Fries;COUNT=3</font>
+<br><font face="Courier New,Courier">ITEM=Soda;COUNT=2</font>
+<br><font face="Courier New,Courier">NAME=Vaneesha</font>
+<br><font face="Courier New,Courier">ITEM=Salad;COUNT=1</font>
+<br><font face="Courier New,Courier">ITEM=Soda;COUNT=1</font>
+<br><font face="Courier New,Courier">TIME=2</font>
+<br><font face="Courier New,Courier">NAME=Kathleen</font>
+<br><font face="Courier New,Courier">ITEM=Double Pounder;COUNT=1</font>
+<br><font face="Courier New,Courier">ITEM=French Fries;COUNT=1</font>
+<br><font face="Courier New,Courier">ITEM=Nuglets;COUNT=1</font>
+<br><font face="Courier New,Courier">ITEM=French Fries;COUNT=1</font>
+<br><font face="Courier New,Courier">ITEM=Soda;COUNT=2</font>
+<br><font face="Courier New,Courier">TIME=3</font>
+<br><font face="Courier New,Courier">NAME=Piotr</font>
+<br><font face="Courier New,Courier">ITEM=McChow;COUNT=3</font>
+<br><font face="Courier New,Courier">ITEM=Tea;COUNT=2</font>
+<br><font face="Courier New,Courier">ITEM=Soda;COUNT=1</font>
+<br><font face="Courier New,Courier">TIME=7</font>
+<br><font face="Courier New,Courier">NAME=Hyung</font>
+<br><font face="Courier New,Courier">ITEM=McChitterlings;COUNT=1</font>
+<br><font face="Courier New,Courier">ITEM=Soda;COUNT=1</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Program Output</font></b>
+<p><font face="Times New Roman,Times">The program should print the name
+of each patron to separate line in the output file PROB16.OUT.&nbsp; Each
+output line should also include which McFood line served the patron, and
+two times:</font>
+<br><font face="Times New Roman,Times">&nbsp;&nbsp;&nbsp; 1.&nbsp; the
+patron's wait time, in minutes &amp; seconds, from restaurant entry to
+transaction completion, and</font>
+<br><font face="Times New Roman,Times">&nbsp;&nbsp;&nbsp; 2.&nbsp; the
+simulation's clock time, in seconds, at transaction completion.</font>
+<br><font face="Times New Roman,Times">The output lines should appear in
+the output file sorted by simulation clock time.</font>
+<p><font face="Times New Roman,Times">Because items can be retrieved in
+parallel, you should subtract 10 seconds from the total time required for
+each item above one that an individual patron orders.&nbsp; (i.e., 2 items
+means subtract 10 seconds, 3 items means 20 seconds, etc.)&nbsp; If the
+patron orders a McFood item that the restaurant doesn't serve, then ignore
+the item, but add fifteen seconds for the delay from the confusion.&nbsp;
+To account for the time required to place the order, add an additional
+7 seconds for each ITEM=xxx line for that patron (regardless of the item
+count).</font>
+<br><font face="Times New Roman,Times">Finally, add another 17 seconds
+to pay for the McFood.</font>
+<p><font face="Times New Roman,Times">If a line becomes empty while another
+line has more than one patron, the patron at the end of the longest line
+moves to the empty line.&nbsp; In the case of two lines tied for longest,
+select the patron from the highest numbered line, i.e., line 5 over line
+2.&nbsp; Upon entry into the restaurant, patrons should be assigned to
+a line according to these rules:</font>
+<br><font face="Times New Roman,Times">&nbsp;&nbsp;&nbsp; 1.&nbsp; the
+patron first chooses the shortest line.</font>
+<br><font face="Times New Roman,Times">&nbsp;&nbsp;&nbsp; 2.&nbsp; if two
+or more lines are equal in length, the patron chooses the line with the
+lowest number.&nbsp; i.e., she chooses line 2 over line 5.</font>
+<p><font face="Times New Roman,Times">Here is the output for the above
+sample input file:</font>
+<p><font face="Courier New,Courier">Vaneesha was served in line 2; wait
+time = 0:58; sim time = 58s</font>
+<br><font face="Courier New,Courier">Hyung was served in line 2; wait time
+= 1:52; sim time = 182s</font>
+<br><font face="Courier New,Courier">Kathleen was served in line 3; wait
+time = 2:47; sim time = 187s</font>
+<br><font face="Courier New,Courier">Bill was served in line 1; wait time
+= 3:34; sim time = 214s</font>
+<br><font face="Courier New,Courier">Piotr was served in line 2; wait time
+= 1:46; sim time = 288s</font>
+<br>&nbsp;
+</body>
+</html>

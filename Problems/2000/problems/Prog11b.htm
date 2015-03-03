@@ -1,0 +1,114 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <meta name="Author" content="leej">
+   <title>Code Wars III - Program 11: Symbolic AI</title>
+<link REL=STYLESHEET TYPE="text/css" HREF="cw3templ.css">
+</head>
+<body>
+&nbsp;
+<center><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="550" >
+<tr>
+<td>
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableDocTitle" >
+<tr VALIGN=BASELINE class="RowAlignBase">
+<td><span class="TextDocTitle">CODE WARS ]I[</span></td>
+
+<td><span class="TextSubTitle">PROGRAMMING COMPETITION</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbTitle" >
+<tr class="RowAlignBase">
+<td><span class="TextProbTitle">Symbolic Artificial Intelligence (AI)</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbInfo" >
+<tr class="RowAlignBase">
+<td><span class="TextProbInfo">Problem 11</span></td>
+
+<td><span class="TextProbInfo">Division I</span></td>
+
+<td><span class="TextProbInfo">12 Points</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Problem Statement</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">You have been given the job of writing
+a simple symbolic AI processor which must read some facts and correctly
+answer some questions. Fortunately, the facts and questions relate to specific
+individuals, who belong to groups which act on other groups. The grammar
+is very simple: there are two types of statements and one type of question,
+and all group nouns are always plural.</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Program Input</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">Each line of PROG11.IN contains a statement
+or a question. The end of the input is indicated by a line whose first
+character is a #. Each line has one of the following forms:
+<blockquote>
+<li>
+A statement of the form "&lt;noun1>s &lt;verb> &lt;noun2>s." This means
+members of group &lt;noun1> do &lt;verb> to members of group &lt;noun2>.</li>
+
+<li>
+A statement of the form "&lt;id> is a &lt;noun>." This means that the particular
+individual &lt;id> belongs to group &lt;noun>.</li>
+
+<li>
+A question of the form "Does &lt;id1> &lt;verb> &lt;id2>?" This asks whether
+&lt;id1> does the action &lt;verb> to &lt;id2>.</li>
+</blockquote>
+&nbsp;&nbsp;&nbsp;&nbsp; Lines are up to 80 characters long. Words are
+up to 40 characters long and may consist of upper and lower case letters,
+although searches should be case insensitive. There may be multiple spaces
+between words, but there are never spaces between words and the punctuation.
+Allow for up to 100 facts in the input.</span>
+<br><!-- file / code example --><span class="TextConsole">Dogs chase cats.
+<br>Dogs like kids.
+<br>Fido is a dog.
+<br>Fluffles is a cat.
+<br>Lydia is a kid.
+<br>Does Fido chase Fluffles?
+<br>Does Fluffles chase Fido?
+<br>Does Fido like Lydia?
+<br>#</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Program Output</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">For each question, the program should
+(1) echo the question to PROG11.OUT, and (2) print 'Yes' if the "facts"
+imply that the question is true, and 'No.' otherwise.</span>
+<br><!-- file / code example --><span class="TextConsole">Does Fido chase
+Fluffles? Yes.
+<br>Does Fluffles chase Fido? No.
+<br>Does Fido like Lydia? Yes.</span></td>
+</tr>
+</table>
+<span class="TextSmallPrint">
+<br>source: 1995 ACS Australian Programming Competition.</span></td>
+</tr>
+</table></center>
+
+</body>
+</html>

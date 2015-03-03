@@ -1,0 +1,524 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+<!-- #BeginTemplate "/Templates/TaskDescription.dwt" -->
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./double%20knockout%20competition_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="./double%20knockout%20competition_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Compaq Code Wars IV - Simple Database</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Bob Perugini</o:Author>
+  <o:LastAuthor>Bob Perugini</o:LastAuthor>
+  <o:Revision>18</o:Revision>
+  <o:TotalTime>46</o:TotalTime>
+  <o:Created>2001-01-18T21:55:00Z</o:Created>
+  <o:LastSaved>2001-02-14T18:02:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>811</o:Words>
+  <o:Characters>4624</o:Characters>
+  <o:Company>Hewlett-Packard Company</o:Company>
+  <o:Lines>38</o:Lines>
+  <o:Paragraphs>9</o:Paragraphs>
+  <o:CharactersWithSpaces>5678</o:CharactersWithSpaces>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>75</w:Zoom>
+ </w:WordDocument>
+</xml><![endif]-->
+<link rel=Stylesheet type="text/css" media=all href=cw4task.css>
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:128;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1 -369098753 63 0 4129023 0;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	mso-font-charset:128;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1 -369098753 63 0 4129023 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h3
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Arial Unicode MS";
+	font-weight:bold;}
+p
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+pre
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:10.0pt;
+	font-family:"Arial Unicode MS";}
+p.fixed, li.fixed, div.fixed
+	{mso-style-name:fixed;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.sectionh, li.sectionh, div.sectionh
+	{mso-style-name:sectionh;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Georgia;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.bodystyle, li.bodystyle, div.bodystyle
+	{mso-style-name:bodystyle;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.iv, li.iv, div.iv
+	{mso-style-name:iv;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:36.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	color:#CEC6FF;
+	font-weight:bold;}
+p.small, li.small, div.small
+	{mso-style-name:small;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.sectionh1
+	{mso-style-name:sectionh1;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	mso-ascii-font-family:Georgia;
+	mso-hansi-font-family:Georgia;
+	font-weight:bold;}
+span.bodystyle1
+	{mso-style-name:bodystyle1;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:Verdana;
+	mso-hansi-font-family:Verdana;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]--><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+</head>
+
+<body bgcolor=white lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<table border=0 cellspacing=0 cellpadding=0 width="100%" bgcolor="#000031"
+ style='width:100.0%;mso-cellspacing:0in;background:#000031;mso-padding-alt:
+ 0in 0in 0in 0in'>
+ <tr>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal><img width=140 height=45 id="_x0000_i1025"
+  src=cpqlogo.gif>&nbsp;&nbsp;&nbsp;</p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><img width=335
+  height=45 id="_x0000_i1026" src=cwtypeiv.gif></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none;mso-hide:all'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<table border=0 cellspacing=1 cellpadding=0 width="100%" style='width:100.0%;
+ mso-cellspacing:.6pt;mso-padding-alt:0in 0in 0in 0in' cols=25>
+ <tr>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>&nbsp; <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>P <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>R <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>O <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>G <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>R <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>A <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>M <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>M <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>I <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>N <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>G <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>&nbsp; <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>C <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>O <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>M <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>P <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>E <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>T <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>I <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=FR
+  style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:FR'>T <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>I <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>O <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>N <o:p></o:p></span></p>
+  </td>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal align=right style='text-align:right'><span
+  style='font-size:10.0pt;font-family:Verdana'>&nbsp; <o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p style='margin-bottom:12.0pt'><!-- #BeginEditable "Task%20Name%20or%20Title" --><span
+class=sectionh1><span style='font-family:Georgia'>Double Knockout Competition<o:p></o:p></span></span></p>
+
+<table border=0 cellspacing=0 cellpadding=0 width="100%" bgcolor="#cec6ff"
+ style='width:100.0%;mso-cellspacing:0in;background:#CEC6FF;mso-padding-alt:
+ 1.2pt 1.2pt 1.2pt 1.2pt'>
+ <tr>
+  <td style='padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Verdana'>Task #<!-- #BeginEditable "Task%20Number" -->12<o:p></o:p></span></p>
+  </td>
+  <td style='padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Verdana'>Advanced <o:p></o:p></span></p>
+  </td>
+  <td style='padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Verdana'><!-- #BeginEditable "TaskPoints" -->12
+  Points <o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p><span class=sectionh1><span style='font-family:Georgia'>Task Description</span></span><br>
+<!-- #BeginEditable "Task%20Description" --><span class=bodystyle1><span
+style='font-size:10.0pt;font-family:Verdana'>In a number of sports, a
+championship may be determined by a double knockout competition.<span
+style="mso-spacerun: yes">&nbsp; </span>A team is eliminated on its second loss,
+so the winner is the last remaining team with one or fewer losses.<span
+style="mso-spacerun: yes">&nbsp; </span>The competition is played in a series
+of rounds: in each round, teams that have not been eliminated are paired
+subject to the constraint that an undefeated team never plays a team with one
+loss.<span style="mso-spacerun: yes">&nbsp; </span>As many teams as possible
+are paired in each round.<span style="mso-spacerun: yes">&nbsp; </span>After a
+number of rounds only two teams remain.<span style="mso-spacerun: yes">&nbsp;
+</span>These teams play in a round by themselves, although one is undefeated
+and the other is not.<span style="mso-spacerun: yes">&nbsp; </span>If neither
+is eliminated, they play again in a final round.<span style="mso-spacerun:
+yes">&nbsp; </span>For our analysis we assume that this extra round is always
+necessary.<o:p></o:p></span></span></p>
+
+<p><span class=bodystyle1><span style='font-size:10.0pt;font-family:Verdana'>Write
+a program to report on a Double Knockout Competition.<o:p></o:p></span></span></p>
+
+<p><span class=sectionh1><span style='font-family:Georgia'>Program Input</span></span><br>
+<!-- #BeginEditable "Program%20Input%20Paragraph" --><span class=bodystyle1><span
+style='font-size:10.0pt;font-family:Verdana'>The first line of the input file
+contains one positive integer n (which is the number of test cases that follow
+it). The next n lines each contain one positive integer t (where t &lt; 32768),
+which is the number of teams in the competition for this test case.<o:p></o:p></span></span></p>
+
+<p class=fixed>5<br>
+2<br>
+6<br>
+32<br>
+64<br>
+512</p>
+
+<p class=fixed><span class=sectionh1><span style='font-size:12.0pt;font-family:
+Georgia'>Program Output</span></span><br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" --><span class=bodystyle1><span
+style='font-family:Verdana'>For each case print a summary of the competition to
+a file.<span style="mso-spacerun: yes">&nbsp; </span>The summary must detail
+each round as follows: </span></span><span style='font-family:Verdana'><br>
+</span>Round 0: 2 undefeated, 0 one-loss, 0 eliminated, 0 games played<br>
+<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" --><span class=bodystyle1><span
+style='font-family:Verdana'>This is followed by a similar line for each round
+of the competition, followed by a single line saying how my rounds and the
+total number of games played. The output for each different test case is to be
+separated by a single blank line.<o:p></o:p></span></span></p>
+
+<p class=fixed>Number of Teams: 2<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 0, 2 undefeated, 0
+one-loss, 0 eliminated, 0 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 1, 1 undefeated, 1
+one-loss, 0 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 2, 0 undefeated, 2
+one-loss, 0 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 3, 0 undefeated, 1
+one-loss, 1 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->There are 3 rounds and a
+total of 3 games were played. </p>
+
+<p class=fixed>Number of Teams: 6<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 0, 6 undefeated, 0
+one-loss, 0 eliminated, 0 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 1, 3 undefeated, 3
+one-loss, 0 eliminated, 3 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 2, 2 undefeated, 3
+one-loss, 1 eliminated, 2 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 3, 1 undefeated, 3
+one-loss, 2 eliminated, 2 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 4, 1 undefeated, 2
+one-loss, 3 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 5, 1 undefeated, 1
+one-loss, 4 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 6, 0 undefeated, 2
+one-loss, 4 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 7, 0 undefeated, 1
+one-loss, 5 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->There are 7 rounds and a
+total of 11 games were played.<o:p></o:p></p>
+
+<p class=fixed>Number of Teams: 32<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 0, 32 undefeated,
+0 one-loss, 0 eliminated, 0 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 1, 16 undefeated,
+16 one-loss, 0 eliminated, 16 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 2, 8 undefeated,
+16 one-loss, 8 eliminated, 16 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 3, 4 undefeated,
+12 one-loss, 16 eliminated, 12 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 4, 2 undefeated, 8
+one-loss, 22 eliminated, 8 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 5, 1 undefeated, 5
+one-loss, 26 eliminated, 5 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 6, 1 undefeated, 3
+one-loss, 28 eliminated, 2 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 7, 1 undefeated, 2
+one-loss, 29 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 8, 1 undefeated, 1
+one-loss, 30 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 9, 0 undefeated, 2
+one-loss, 30 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 10, 0 undefeated,
+1 one-loss, 31 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->There are 10 rounds and a
+total of 63 games were played.<o:p></o:p></p>
+
+<p class=fixed>Number of Teams: 64<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 0, 64 undefeated,
+0 one-loss, 0 eliminated, 0 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 1, 32 undefeated,
+32 one-loss, 0 eliminated, 32 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 2, 16 undefeated,
+32 one-loss, 16 eliminated, 32 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 3, 8 undefeated,
+24 one-loss, 32 eliminated, 24 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 4, 4 undefeated,
+16 one-loss, 44 eliminated, 16 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 5, 2 undefeated,
+10 one-loss, 52 eliminated, 10 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 6, 1 undefeated, 6
+one-loss, 57 eliminated, 6 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 7, 1 undefeated, 3
+one-loss, 60 eliminated, 3 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 8, 1 undefeated, 2
+one-loss, 61 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 9, 1 undefeated, 1
+one-loss, 62 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 10, 0 undefeated,
+2 one-loss, 62 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 11, 0 undefeated,
+1 one-loss, 63 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->There are 11 rounds and a
+total of 127 games were played.<o:p></o:p></p>
+
+<p class=fixed>Number of Teams: 512<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 0, 512 undefeated,
+0 one-loss, 0 eliminated, 0 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 1, 256 undefeated,
+256 one-loss, 0 eliminated, 256 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 2, 128 undefeated,
+256 one-loss, 128 eliminated, 256 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 3, 64 undefeated,
+192 one-loss, 256 eliminated, 192 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 4, 32 undefeated,
+128 one-loss, 352 eliminated, 128 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 5, 16 undefeated,
+80 one-loss, 416 eliminated, 80 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 6, 8 undefeated,
+48 one-loss, 456 eliminated, 48 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 7, 4 undefeated,
+28 one-loss, 480 eliminated, 28 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 8, 2 undefeated,
+16 one-loss, 494 eliminated, 16 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 9, 1 undefeated, 9
+one-loss, 502 eliminated, 9 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 10, 1 undefeated,
+5 one-loss, 506 eliminated, 4 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 11, 1 undefeated,
+3 one-loss, 508 eliminated, 2 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 12, 1 undefeated,
+2 one-loss, 509 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 13, 1 undefeated,
+1 one-loss, 510 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 14, 0 undefeated,
+2 one-loss, 510 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->Round: 15, 0 undefeated,
+1 one-loss, 511 eliminated, 1 games played<br>
+<!-- #BeginEditable "Program%20Output%20Paragraph" -->There are 15 rounds and a
+total of 1023 games were played.</p>
+
+</div>
+
+</body>
+
+<!-- #EndTemplate -->
+</html>

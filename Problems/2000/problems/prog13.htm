@@ -1,0 +1,110 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="leej">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <title>Code Wars III - Program 13: Maze Surfing</title>
+<link REL=STYLESHEET TYPE="text/css" HREF="cw3templ.css">
+<style type="text/css">
+<!--
+-->
+   </style>
+</head>
+<body>
+&nbsp;
+<center><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="550" >
+<tr>
+<td>
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableDocTitle" >
+<tr VALIGN=BASELINE class="RowAlignBase">
+<td><span class="TextDocTitle">CODE WARS ]I[</span></td>
+
+<td><span class="TextSubTitle">PROGRAMMING COMPETITION</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbTitle" >
+<tr class="RowAlignBase">
+<td><span class="TextProbTitle">Maze Surfing</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableProbInfo" >
+<tr class="RowAlignBase">
+<td><span class="TextProbInfo">Problem 13</span></td>
+
+<td><span class="TextProbInfo">Division I</span></td>
+
+<td><span class="TextProbInfo">14 Points</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Problem Statement</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">You dirty rat. You're caught in a malicious
+lab experiment, dropped into a maze. Your job is to find the cheese and
+thereby to prove the superior intelligence of the various rodent species.</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Program Input</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">The input file PROG13.IN describes a
+single maze. The first line of the file is an integer, N, indicating the
+number of rows and columns in the maze, constrained by: 8 &lt; N &lt; 19.
+The next N lines each contain N characters separated by spaces. Walls are
+represented by '#', hallways by '.', the start position by 'M', and the
+cheese by 'C'. For example:</span>
+<br><span class="TextConsole">10
+<br># # # # # # # # # #
+<br># . # M . . # . . #
+<br># . # # . # # # . #
+<br># . . . . . . . . #
+<br># # # # . # . # # #
+<br># . . . . # . # C #
+<br># # # # # # . # . #
+<br># . # . . . . # . #
+<br># . . . # . . . . #
+<br># # # # # # # # # #</span></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 WIDTH="100%" class="TableSection" >
+<tr class="RowSectionHeader">
+<td><span class="TextSectionHeader">Program Output</span></td>
+</tr>
+
+<tr class="RowSectionBody">
+<td><span class="TextSectionBody">The program should write the maze to
+PROG13.OUT, drawing the shortest path from M to C with a series of '+'
+characters.&nbsp; You may assume that (1) there <i>will be</i> a valid
+path from M to C, and (2) there will <i>only be one</i> path from M to
+C (i.e., no loops).&nbsp; The path is not permitted to contain any diagonal
+movements.&nbsp; The solution for the above input file is:</span><!-- file / code example --><span class="TextConsole">
+<br># # # # # # # # # #
+<br># . # M + . # . . #
+<br># . # # + # # # . #
+<br># . . . + + + . . #
+<br># # # # . # + # # #
+<br># . . . . # + # C #
+<br># # # # # # + # + #
+<br># . # . . . + # + #
+<br># . . . # . + + + #
+<br># # # # # # # # # #</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+
+</body>
+</html>
