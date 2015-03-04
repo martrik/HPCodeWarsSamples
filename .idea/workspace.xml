@@ -2,8 +2,943 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dba2ab7-6893-4992-83c1-438c05b2c4b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2013 All/prob11.py" afterPath="$PROJECT_DIR$/2013 All/prob11.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2013 All/prob12.py" afterPath="$PROJECT_DIR$/2013 All/prob12.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/comment-bright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/comment-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/down-pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_images/logging_flow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/objects.inv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/py.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-pdf-a4.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_images/python-video-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_images/turtle-star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/up-pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/.buildinfo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/2.0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/2.0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/2.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/2.1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/2.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/2.2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/2.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/2.3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/2.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/2.4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/2.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/2.5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/2.6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/2.6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/2.7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/2.7.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/2to3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/2to3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/3.0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/3.0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/3.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/3.1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/3.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/3.2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/3.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/3.3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/__future__.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/__future__.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/__main__.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/__main__.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/_dummy_thread.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/_dummy_thread.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/_thread.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/_thread.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/abc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/abc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/about.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/abstract.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/abstract.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/aifc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/aifc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/allocation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/allocation.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/allos.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/allos.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/apiabiversion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/apiabiversion.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/apiref.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/apiref.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/appetite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/appetite.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/archiving.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/archiving.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/arg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/arg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/argparse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/argparse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/argparse.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/argparse.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/array.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/array.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/ast.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/ast.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/asynchat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/asynchat.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/asyncore.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/asyncore.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/atexit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/atexit.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/audioop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/audioop.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/base64.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/base64.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/basic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/bdb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/bdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/binary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/binary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/binascii.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/binascii.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/binhex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/binhex.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/bisect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/bisect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/bool.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/bool.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/buffer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/buffer.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/bugs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/bugs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/extending/building.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/extending/building.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/builtdist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/builtdist.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/builtins.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/builtins.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/bytearray.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/bytearray.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/bytes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/bytes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/bz2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/bz2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/calendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/calendar.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/capsule.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/capsule.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/cell.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/cell.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/cgi.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/cgi.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/cgitb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/cgitb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/changelog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/chunk.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/chunk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/classes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/classes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/cmath.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/cmath.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/cmd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/cmd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/using/cmdline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/using/cmdline.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/code.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/code.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/code.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/code.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/codec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/codec.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/codecs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/codecs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/codeop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/codeop.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/collections.abc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/collections.abc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/collections.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/collections.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/colorsys.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/colorsys.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/commandref.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/commandref.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/compileall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/compileall.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/complex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/complex.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/reference/compound_stmts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/reference/compound_stmts.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/concrete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/concrete.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/concurrency.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/concurrency.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/concurrent.futures.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/concurrent.futures.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/concurrent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/concurrent.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/configfile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/configfile.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/configparser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/configparser.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/constants.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/constants.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/contents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/contents.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/contextlib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/contextlib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/controlflow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/controlflow.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/conversion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/conversion.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/copy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/copy.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/copybutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/copyreg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/copyreg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/copyright.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/copyright.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/cporting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/cporting.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/crypt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/crypt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/crypto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/crypto.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/csv.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/csv.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/ctypes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/ctypes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/curses.ascii.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/curses.ascii.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/curses.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/curses.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/curses.panel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/curses.panel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/curses.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/curses.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/custominterp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/custominterp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/reference/datamodel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/reference/datamodel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/datastructures.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/datastructures.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/datatypes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/datatypes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/datetime.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/datetime.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/datetime.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/datetime.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/dbm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/dbm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/debug.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/debug.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/decimal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/decimal.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/descriptor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/descriptor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/descriptor.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/descriptor.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/faq/design.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/faq/design.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/development.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/development.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/dict.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/dict.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/difflib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/difflib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/dis.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/dis.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/distutils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/distutils.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/doctest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/doctest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/doctools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/download.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/dummy_threading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/dummy_threading.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email-examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email-examples.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.charset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.charset.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.encoders.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.encoders.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.errors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.errors.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.generator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.generator.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.header.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.headerregistry.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.headerregistry.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.iterators.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.iterators.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.message.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.message.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.mime.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.mime.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.parser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.parser.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.policy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.policy.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/email.util.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/email.util.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/extending/embedding.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/extending/embedding.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/errno.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/errno.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/errors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/errors.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/examples.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/exceptions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/exceptions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/exceptions.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/exceptions.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/reference/executionmodel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/reference/executionmodel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/reference/expressions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/reference/expressions.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/extending.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/extending/extending.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/faq/extending.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/extending.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/extending/extending.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/faq/extending.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/faulthandler.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/faulthandler.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/fcntl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/fcntl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/file.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/file.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/filecmp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/filecmp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/fileformats.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/fileformats.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/fileinput.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/fileinput.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/filesys.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/filesys.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/float.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/float.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/floatingpoint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/floatingpoint.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/fnmatch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/fnmatch.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/formatter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/formatter.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/fpectl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/fpectl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/fractions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/fractions.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/frameworks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/frameworks.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/ftplib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/ftplib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/function.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/function.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/functional.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/functional.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/functional.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/functional.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/functions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/functions.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/functools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/functools.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/gc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/gc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/gcsupport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/gcsupport.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/gen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/gen.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/faq/general.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/faq/general.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-A.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-B.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-C.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-D.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-E.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-F.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-G.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-H.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-I.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-J.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-K.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-L.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-M.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-N.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-O.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-P.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-Q.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-R.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-S.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-Symbols.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-T.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-U.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-V.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-W.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-X.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-Y.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-Z.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-_.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex-all.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/genindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/getopt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/getopt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/getpass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/getpass.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/gettext.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/gettext.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/glob.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/glob.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/glossary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/glossary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/reference/grammar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/reference/grammar.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/grp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/grp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/faq/gui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/faq/gui.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/gzip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/gzip.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/hashlib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/hashlib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/heapq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/heapq.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/hmac.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/hmac.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/html.entities.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/html.entities.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/html.parser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/html.parser.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/html.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/http.client.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/http.client.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/http.cookiejar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/http.cookiejar.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/http.cookies.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/http.cookies.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/http.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/http.server.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/http.server.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/http.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/i18n.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/i18n.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/idle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/idle.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/imaplib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/imaplib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/imghdr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/imghdr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/imp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/imp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/import.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/reference/import.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/import.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/reference/import.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/importlib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/importlib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/extending/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/faq/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/install/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/reference/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/using/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/whatsnew/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/extending/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/faq/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/install/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/reference/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/using/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/whatsnew/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/init.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/init.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/inputoutput.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/inputoutput.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/inspect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/inspect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/faq/installed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/faq/installed.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/interactive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/interactive.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/internet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/internet.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/interpreter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/interpreter.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/intro.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/intro.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/intro.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/intro.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/introduction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/reference/introduction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/introduction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/introduction.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/reference/introduction.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/introduction.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/io.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/io.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/ipaddress.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/ipaddress.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/ipaddress.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/ipaddress.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/ipc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/ipc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/iter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/iter.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/iterator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/iterator.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/itertools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/itertools.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/json.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/json.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/keyword.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/keyword.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/language.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/language.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/reference/lexical_analysis.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/reference/lexical_analysis.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/faq/library.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/faq/library.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/license.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/linecache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/linecache.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/locale.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/locale.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/logging-cookbook.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/logging-cookbook.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/logging.config.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/logging.config.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/logging.handlers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/logging.handlers.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/logging.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/logging.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/logging.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/logging.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/long.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/long.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/lzma.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/lzma.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/using/mac.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/using/mac.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/macpath.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/macpath.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/mailbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/mailbox.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/mailcap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/mailcap.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/mapping.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/mapping.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/markup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/markup.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/marshal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/marshal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/marshal.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/marshal.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/math.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/math.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/memory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/memory.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/memoryview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/memoryview.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/method.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/method.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/mimetypes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/mimetypes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/misc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/misc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/mm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/mm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/mmap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/mmap.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/module.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/module.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/modulefinder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/modulefinder.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/modules.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/modules.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/modules.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/modules.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/msilib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/msilib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/msvcrt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/msvcrt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/multiprocessing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/multiprocessing.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/netdata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/netdata.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/netrc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/netrc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/extending/newtypes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/extending/newtypes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/nis.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/nis.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/nntplib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/nntplib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/none.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/none.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/number.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/number.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/numbers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/numbers.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/numeric.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/numeric.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/objbuffer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/objbuffer.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/object.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/object.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/objimpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/objimpl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/opensearch.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/operator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/operator.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/optparse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/optparse.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/os.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/os.path.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/os.path.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/os.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/ossaudiodev.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/ossaudiodev.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/othergui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/othergui.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/packageindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/packageindex.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/parser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/parser.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/pdb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/pdb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/persistence.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/persistence.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/pickle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/pickle.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/pickletools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/pickletools.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/pipes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/pipes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/pkgutil.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/pkgutil.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/platform.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/platform.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/plistlib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/plistlib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/poplib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/poplib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/posix.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/posix.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/pprint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/pprint.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/profile.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/faq/programming.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/faq/programming.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/pty.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/pty.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/pwd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/pwd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/py-modindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/py_compile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/py_compile.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/pyclbr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/pyclbr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/pydoc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/pydoc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/pydoctheme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/pyexpat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/pyexpat.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/pygments.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/pyporting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/pyporting.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/python.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/python.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/queue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/queue.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/quopri.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/quopri.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/random.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/random.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/re.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/re.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/readline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/readline.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/refcounting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/refcounting.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/reflection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/reflection.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/regex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/regex.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/reprlib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/reprlib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/resource.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/resource.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/rlcompleter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/rlcompleter.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/runpy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/runpy.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/sched.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/sched.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/using/scripts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/using/scripts.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/searchindex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/searchtools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/select.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/sequence.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/sequence.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/set.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/set.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/setupscript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/setupscript.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/shelve.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/shelve.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/shlex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/shlex.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/shutil.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/shutil.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/signal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/signal.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/reference/simple_stmts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/reference/simple_stmts.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/site.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/site.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/slice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/slice.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/smtpd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/smtpd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/smtplib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/smtplib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/sndhdr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/sndhdr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/socket.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/socket.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/sockets.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/sockets.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/socketserver.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/socketserver.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/sorting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/sorting.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/sourcedist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/sourcedist.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/spwd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/spwd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/sqlite3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/sqlite3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/ssl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/ssl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/stable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/stable.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/stat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/stat.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/stdlib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/stdlib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/stdlib2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/stdlib2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/stdtypes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/stdtypes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/string.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/string.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/stringprep.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/stringprep.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/struct.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/struct.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/structures.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/structures.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/subprocess.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/subprocess.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/sunau.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/sunau.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/symbol.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/symbol.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/symtable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/symtable.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/sys.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/sys.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/sys.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/sys.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/sysconfig.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/sysconfig.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/syslog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/syslog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/tabnanny.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/tabnanny.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/tarfile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/tarfile.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/telnetlib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/telnetlib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/tempfile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/tempfile.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/termios.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/termios.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/text.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/textwrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/textwrap.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/threading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/threading.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/time.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/time.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/timeit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/timeit.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/tk.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/tk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/tkinter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/tkinter.scrolledtext.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/tkinter.scrolledtext.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/tkinter.tix.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/tkinter.tix.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/tkinter.ttk.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/tkinter.ttk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/tkinter.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/token.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/token.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/tokenize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/tokenize.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/reference/toplevel_components.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/reference/toplevel_components.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/trace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/trace.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/traceback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/traceback.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/tty.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/tty.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/tuple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/tuple.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/turtle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/turtle.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/type.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/typeobj.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/typeobj.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/types.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/types.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/undoc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/undoc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/unicode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/unicode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/unicode.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/unicode.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/unicodedata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/unicodedata.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/unittest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/unittest.mock-examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/unittest.mock-examples.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/unittest.mock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/unittest.mock.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/unittest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/unix.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/using/unix.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/unix.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/using/unix.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/distutils/uploading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/distutils/uploading.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/urllib.error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/urllib.error.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/urllib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/urllib.parse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/urllib.parse.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/urllib.request.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/urllib.request.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/urllib.robotparser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/urllib.robotparser.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/urllib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/urllib2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/urllib2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/utilities.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/utilities.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/uu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/uu.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/uuid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/uuid.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/venv.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/venv.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/version_switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/veryhigh.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/veryhigh.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/warnings.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/warnings.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/wave.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/wave.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/c-api/weakref.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/weakref.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/c-api/weakref.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/weakref.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/webbrowser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/webbrowser.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/howto/webservers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/howto/webservers.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_static/websupport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/tutorial/whatnow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/tutorial/whatnow.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/extending/windows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/faq/windows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/windows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/using/windows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/extending/windows.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/faq/windows.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/windows.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/using/windows.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/winreg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/winreg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/winsound.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/winsound.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/wsgiref.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/wsgiref.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xdrlib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xdrlib.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xml.dom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xml.dom.minidom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xml.dom.minidom.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xml.dom.pulldom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xml.dom.pulldom.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xml.dom.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xml.etree.elementtree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xml.etree.elementtree.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xml.sax.handler.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xml.sax.handler.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xml.sax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xml.sax.reader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xml.sax.reader.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xml.sax.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xml.sax.utils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xml.sax.utils.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xml.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xmlrpc.client.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xmlrpc.client.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xmlrpc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/xmlrpc.server.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xmlrpc.server.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/xmlrpc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/zipfile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/zipfile.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/zipimport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/zipimport.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/library/zlib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/python-3.3.6-docs-html/_sources/library/zlib.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeWars.iws" />
@@ -27,18 +962,7 @@
     <favorites_list name="CodeWars" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="prob11.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2013 All/prob11.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37585035" vertical-offset="0" max-vertical-offset="588">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -101,6 +1025,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,7 +1088,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,7 +1343,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425497990511</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Problem 12 working">
+      <created>1425498320338</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1425498320338</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -427,25 +1357,25 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13072917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32864866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13072917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -465,18 +1395,27 @@
     </option>
     <MESSAGE value="Changed folder names" />
     <MESSAGE value="More problems uploaded but 10, 11 and 12 not working yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="More problems uploaded but 10, 11 and 12 not working yet" />
+    <MESSAGE value="Problem 12 working" />
+    <MESSAGE value="Added python documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added python documentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2013 All/prob11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2013 All/prob03.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -484,9 +1423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
           <caret line="4" column="47" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -494,7 +1430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="425">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -502,9 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,7 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,7 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,7 +1500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05782313" vertical-offset="0" max-vertical-offset="588">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -578,7 +1507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0867347" vertical-offset="0" max-vertical-offset="588">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,9 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -596,7 +1521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +1528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,7 +1535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,9 +1542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28587443" vertical-offset="0" max-vertical-offset="892">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,7 +1549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3469388" vertical-offset="0" max-vertical-offset="588">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,7 +1556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,7 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="595">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,7 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
           <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +1577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +1584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <caret line="3" column="32" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +1591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,7 +1598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0867347" vertical-offset="0" max-vertical-offset="588">
           <caret line="4" column="47" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,13 +1605,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3622449" vertical-offset="348" max-vertical-offset="1003">
           <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2013 All/prob11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37585035" vertical-offset="0" max-vertical-offset="588">
+        <state vertical-scroll-proportion="0.24803591" vertical-offset="0" max-vertical-offset="891">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding />
         </state>

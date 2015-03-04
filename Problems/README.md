@@ -1,0 +1,1 @@
+All this resources have been downloaded from the HP CodeWars website, it's public on the internet at http://www.hpcodewars.org/, but we decided to download it to access it more easily.
