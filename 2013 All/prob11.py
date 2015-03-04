@@ -3,15 +3,15 @@ import sys
 repeatTimes = sys.stdin.readline().strip().upper()
 
 for i in range(int(repeatTimes)):
-    line = sys.stdin.readline().strip().upper()
+    line = sys.stdin.readline().strip("\n")
     paraules = line.split()
 
     #problem not working yet
-    for i in range(paraules.__len__()):
-        if paraules[i] == "IS" and paraules[i+1] == "NOT":
+    for i in range(len(paraules)):
+        if paraules[i] == "is" and paraules[i+1] == "not":
             paraules.remove(i+1)
-        elif paraules[i] == "IS" and not paraules[i+1] == "NOT":
-            paraules.insert(i+1, "NOT")
+        elif paraules[i] == "is" and not paraules[i+1] == "not":
+            paraules.insert(i+1, "not")
 
     sentence = ""
 

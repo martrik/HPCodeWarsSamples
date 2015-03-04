@@ -30,25 +30,17 @@ morse = {"A": "·-",
 def convertToMorse(toConvert):
     inMorse = ""
     for letter in toConvert:
-        inMorse += morse[letter]
+        if letter in morse:
+            inMorse += morse[letter]
 
     return inMorse
 
-#doesn't work yet
-def checIfIsPalindrome(possiblePalindrome):
-    print(str(possiblePalindrome.__len__()))
-    if possiblePalindrome.__len__()%2 == 0:
-        left = possiblePalindrome[0, possiblePalindrome.__len__()/2-1]
-        right = possiblePalindrome[possiblePalindrome.__len__()/2, possiblePalindrome.__len__()]
-    else:
-        left = possiblePalindrome[0, int(((possiblePalindrome.__len__()-1)/2)-1)]
-        right = possiblePalindrome[(possiblePalindrome.__len__()-1)/2+1, possiblePalindrome.__len__()]
-
-    for i in range(left.__len__()):
-        if not left[i] == right[right.__len__()-1-i]:
-            return False
-
-    return True
+def checIfIsPalindrome(morse):
+    size = len(morse)
+    half = int(size / 2)
+    left = morse[:half]
+    right = morse[-half:]
+    return left == right[::-1]
 
 for linen in sys.stdin:
     line = linen.strip().upper()
