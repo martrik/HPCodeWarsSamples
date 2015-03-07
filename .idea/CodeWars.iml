@@ -5,8 +5,9 @@
       <sourceFolder url="file://$MODULE_DIR$/2014 Gabriel" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2014 Marti" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2013 All" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2015 All" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.3.5 (C:\Python33\python.exe)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.4.2 (/usr/bin/python3.4)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
